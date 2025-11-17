@@ -118,7 +118,6 @@
 - Unity Events
 
 ### Навигация
-- [README модуля](MyLearn/Module03_UnityBasics/README.md)
 - [← Предыдущий модуль](MyLearn/Module02_OOP/README.md)
 - [Следующий модуль →](MyLearn/Module04_GameMechanics/README.md)
 
@@ -307,7 +306,7 @@
 - Паттерны → Модуль 2
 
 **Unity:**
-- Основы → [Модуль 3](MyLearn/Module03_UnityBasics/README.md)
+- Концепции → [Модуль 3](MyLearn/Module03_GameConcepts/README.md)
 - Механики → [Модуль 4](MyLearn/Module04_GameMechanics/README.md)
 - Проекты → [Модуль 7](MyLearn/Module07_Projects/README.md)
 
