@@ -73,3 +73,5 @@ Thumbs.db
 # Rider
 .idea/
 *.sln.iml
+.vscode/
+.config/
