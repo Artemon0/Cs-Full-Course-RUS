@@ -3,28 +3,28 @@ using System;
 namespace MyLearn.Module01_CSharpBasics
 {
     /// <summary>
-    /// Урок 4: Циклы
+    /// Lesson 4: Loops
     /// 
     /// В этом уроке вы изучите:
-    /// - Цикл for
-    /// - Цикл while
-    /// - Цикл do-while
-    /// - Цикл foreach
-    /// - Операторы break и continue
-    /// - Вложенные циклы
+    /// - for loop
+    /// - while loop
+    /// - do-while loop
+    /// - for loopeach
+    /// - Operators break и continue
+    /// - Вложенные loops
     /// </summary>
     public class Loops
     {
         // Для запуска этого урока раскомментируйте Main и закомментируйте Main в других файлах
         public static void RunDemo()
         {
-            Console.WriteLine("=== Урок 4: Циклы ===\n");
+            Console.WriteLine("=== Lesson 4: Loops ===\n");
 
             // ========================================
             // 1. ЦИКЛ FOR
             // ========================================
 
-            Console.WriteLine("--- Цикл for ---");
+            Console.WriteLine("--- for loop ---");
 
             // Базовый синтаксис: for (инициализация; условие; изменение)
             for (int i = 0; i < 5; i++)
@@ -53,7 +53,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 2. ЦИКЛ WHILE
             // ========================================
 
-            Console.WriteLine("--- Цикл while ---");
+            Console.WriteLine("--- while loop ---");
 
             // While выполняется, пока условие true
             int health = 100;
@@ -81,7 +81,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 3. ЦИКЛ DO-WHILE
             // ========================================
 
-            Console.WriteLine("--- Цикл do-while ---");
+            Console.WriteLine("--- do-while loop ---");
 
             // Do-while выполняется минимум 1 раз
             int attempts = 0;
@@ -118,7 +118,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 4. ЦИКЛ FOREACH
             // ========================================
 
-            Console.WriteLine("--- Цикл foreach ---");
+            Console.WriteLine("--- for loopeach ---");
 
             // Foreach для перебора элементов массива
             string[] weapons = { "Меч", "Лук", "Посох", "Топор" };
@@ -136,7 +136,7 @@ namespace MyLearn.Module01_CSharpBasics
             Console.WriteLine("\nОчки за уровни:");
             foreach (int score in scores)
             {
-                Console.WriteLine($"Уровень: {score} очков");
+                Console.WriteLine($"Level: {score} очков");
                 totalScore += score;
             }
             Console.WriteLine($"Всего очков: {totalScore}");
@@ -150,7 +150,7 @@ namespace MyLearn.Module01_CSharpBasics
             Console.WriteLine("--- Break и Continue ---");
 
             // Break - выход из цикла
-            Console.WriteLine("Поиск врага:");
+            Console.WriteLine("Search врага:");
             for (int i = 1; i <= 10; i++)
             {
                 Console.WriteLine($"Проверяем комнату {i}...");
@@ -179,10 +179,10 @@ namespace MyLearn.Module01_CSharpBasics
             // 6. ВЛОЖЕННЫЕ ЦИКЛЫ
             // ========================================
 
-            Console.WriteLine("--- Вложенные циклы ---");
+            Console.WriteLine("--- Вложенные loops ---");
 
             // Создание сетки уровня
-            Console.WriteLine("Карта уровня (5x5):");
+            Console.WriteLine("Map уровня (5x5):");
             for (int row = 0; row < 5; row++)
             {
                 for (int col = 0; col < 5; col++)
@@ -247,12 +247,12 @@ namespace MyLearn.Module01_CSharpBasics
                 slotNumber++;
             }
 
-            // Поиск предмета
+            // Search предмета
             string searchItem = "Ключ";
             bool found = false;
             int position = 0;
 
-            Console.WriteLine($"\nПоиск предмета: {searchItem}");
+            Console.WriteLine($"\nSearch предмета: {searchItem}");
             for (int i = 0; i < inventory.Length; i++)
             {
                 if (inventory[i] == searchItem)
@@ -376,7 +376,7 @@ namespace MyLearn.Module01_CSharpBasics
  * 
  * 1. Таблица умножения:
  *    - Создайте таблицу умножения от 1 до 10
- *    - Используйте вложенные циклы
+ *    - Используйте вложенные loops
  *    - Формат: "2 x 3 = 6"
  * 
  * 2. Система опыта:
@@ -387,7 +387,7 @@ namespace MyLearn.Module01_CSharpBasics
  *    - Выводите повышение уровня
  *    - Остановитесь на уровне 10
  * 
- * 3. Поиск в инвентаре:
+ * 3. Search в инвентаре:
  *    - Создайте массив предметов
  *    - Найдите все зелья
  *    - Подсчитайте их количество
@@ -429,7 +429,7 @@ namespace MyLearn.Module01_CSharpBasics
  *    - do-while: когда нужно выполнить минимум 1 раз
  *    - foreach: для перебора коллекций
  * 
- * 2. Бесконечные циклы:
+ * 2. Бесконечные loops:
  *    while (true) {
  *        // Не забудьте break!
  *    }
@@ -439,7 +439,7 @@ namespace MyLearn.Module01_CSharpBasics
  *    - Кэшируйте значения вне цикла
  *    - Используйте break для ранного выхода
  * 
- * 4. Вложенные циклы:
+ * 4. Вложенные loops:
  *    - Сложность O(n²) - будьте осторожны!
  *    - Для больших данных может быть медленно
  * 

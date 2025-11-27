@@ -1,54 +1,60 @@
-# ⚡ Быстрый старт
+﻿# ⚡ Quick Start
 
-## Локальный просмотр
+## Local Preview
 
-### Способ 1: Открыть файл напрямую
+### Method 1: Open File Directly
+
 ```bash
-# Просто откройте index.html в браузере
+# Just open index.html in your browser
 start index.html
 ```
 
-### Способ 2: Локальный сервер (лучше)
+### Method 2: Local Server (Better)
+
 ```bash
 # Python 3
 python -m http.server 8000
 
-# Затем откройте: http://localhost:8000
+# Then open: http://localhost:8000
 ```
 
-## Публикация на GitHub Pages
+## Publishing to GitHub Pages
 
-### 1. Загрузите на GitHub
+### 1. Upload to GitHub
+
 ```bash
 git add .
 git commit -m "Add web version"
 git push
 ```
 
-### 2. Включите GitHub Pages
+### 2. Enable GitHub Pages
+
 1. Settings → Pages
 2. Source: `main` branch, `/docs` folder
 3. Save
 
-### 3. Готово!
-Сайт будет доступен через 1-2 минуты по адресу:
+### 3. Done!
+
+The site will be available in 1-2 minutes at:
+
 ```
 https://[username].github.io/[repo-name]/
 ```
 
-## 🎨 Что внутри?
+## 🎨 What's Inside?
 
-- ✅ 13 интерактивных уроков
-- ✅ Примеры кода с подсветкой
-- ✅ Адаптивный дизайн
-- ✅ Без зависимостей (чистый HTML/CSS/JS)
+- ✅ 13 interactive lessons
+- ✅ Code examples with highlighting
+- ✅ Responsive design
+- ✅ No dependencies (pure HTML/CSS/JS)
 
-## 📝 Редактирование
+## 📝 Editing
 
-- **Контент уроков:** `script.js` → объект `lessons`
-- **Стили:** `styles.css`
-- **Структура:** `index.html`
+- **Lesson content:** `script.js` → `lessons` object
+- **Styles:** `styles.css`
+- **Structure:** `index.html`
 
 ---
 
-**Всё готово к использованию!** 🚀
+**All set to use!** 🚀

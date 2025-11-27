@@ -1,54 +1,61 @@
-# 📝 История изменений веб-версии
+﻿# 📝 Web Version Changelog
 
 ## [1.0.0] - 2024-11-17
 
-### ✨ Добавлено
-- Полная веб-версия обучающего курса C# для Unity
-- 13 интерактивных уроков с примерами кода
-- Современный адаптивный дизайн
-- Поддержка мобильных устройств
-- Плавные анимации и переходы
-- Подсветка синтаксиса кода
+### ✨ Added
 
-### 📚 Модули
-- **Модуль 1:** Основы C# (6 уроков)
-- **Модуль 2:** ООП в C# (4 урока)
-- **Модуль 3:** Игровые концепции (3 урока)
+- Full web version of the C# learning course for Unity
+- 13 interactive lessons with code examples
+- Modern responsive design
+- Mobile device support
+- Smooth animations and transitions
+- Code syntax highlighting
 
-### 📄 Файлы
-- `index.html` - главная страница (2.8 KB)
-- `styles.css` - стили и анимации (3.7 KB)
-- `script.js` - логика и контент (22.5 KB)
-- `README.md` - документация
-- `QUICKSTART.md` - быстрый старт
-- `ИНСТРУКЦИЯ.md` - подробная инструкция на русском
-- `.nojekyll` - для корректной работы GitHub Pages
+### 📚 Modules
 
-### 🎨 Особенности дизайна
-- Градиентные фоны (фиолетовый → синий)
-- Карточный интерфейс с тенями
-- Hover-эффекты на кнопках
-- Плавная анимация появления
-- Адаптивная типографика
+- **Module 1:** C# Basics (6 lessons)
+- **Module 2:** OOP in C# (4 lessons)
+- **Module 3:** Game Concepts (3 lessons)
 
-### 🚀 Технологии
+### 📄 Files
+
+- `index.html` - main page (2.8 KB)
+- `styles.css` - styles and animations (3.7 KB)
+- `script.js` - logic and content (22.5 KB)
+- `README.md` - Documentation
+- `QUICKSTART.md` - quick start
+- `CHANGELOG.md` - change log
+- `.nojekyll` - for correct GitHub Pages operation
+
+### 🎨 Design Features
+
+- Gradient backgrounds (purple → blue)
+- Card interface with shadows
+- Hover effects on buttons
+- Smooth animation appearance
+- Adaptive typography
+
+### 🚀 Technologies
+
 - HTML5
 - CSS3 (Flexbox, Grid, Animations)
 - Vanilla JavaScript (ES6+)
-- Без внешних зависимостей
+- No external dependencies
 
-### 📱 Совместимость
-- ✅ Chrome/Edge (последние версии)
-- ✅ Firefox (последние версии)
-- ✅ Safari (последние версии)
-- ✅ Мобильные браузеры (iOS/Android)
+### 📱 Compatibility
 
-### 🔧 Оптимизация
-- Минимальный размер файлов (38.7 KB всего)
-- Быстрая загрузка
-- Нет внешних запросов
-- Работает офлайн после первой загрузки
+- ✅ Chrome/Edge (latest versions)
+- ✅ Firefox (latest versions)
+- ✅ Safari (latest versions)
+- ✅ Mobile browsers (iOS/Android)
+
+### 🔧 Optimization
+
+- Minimal file sizes (38.7 KB total)
+- Fast loading
+- No external requests
+- Works offline after first load
 
 ---
 
-**Готово к публикации на GitHub Pages!** 🎉
+**Ready for GitHub Pages publication!** 🎉

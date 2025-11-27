@@ -1,55 +1,64 @@
-# 🎮 Обучение C# для Unity - Web версия
+﻿# 🎮 C# Learning for Unity - Web Version
 
-Интерактивная веб-версия обучающего проекта по C# для Unity.
+Interactive web version of the C# learning project for Unity.
 
-## 🚀 Запуск
+## 🚀 Running
 
-### Локально
-Просто откройте `index.html` в браузере.
+### Locally
+
+Simply open `index.html` in your browser.
 
 ### GitHub Pages
-1. Перейдите в Settings → Pages
-2. Выберите Source: Deploy from a branch
-3. Выберите Branch: main и папку `/docs`
-4. Сохраните
 
-Сайт будет доступен по адресу: `https://[ваш-username].github.io/[название-репозитория]/`
+1. Go to Settings → Pages
+2. Choose Source: Deploy from a branch
+3. Choose Branch: main and folder `/docs`
+4. Save
 
-## 📚 Содержание
+The site will be available at: `https://[your-username].github.io/[repository-name]/`
 
-### Модуль 1: Основы C#
-- Переменные и типы данных
-- Операторы
-- Условные конструкции
-- Циклы
-- Массивы и коллекции
-- Методы
+## 📚 Contents
 
-### Модуль 2: ООП в C#
-- Классы и объекты
-- Наследование и полиморфизм
-- Интерфейсы и абстрактные классы
-- Паттерны проектирования
+### Module 1: C# Basics
 
-### Модуль 3: Игровые концепции
-- Игровой цикл (Game Loop)
-- Компонентная система
-- Система событий
+- Variables and Data Types
+- Operators
+- Conditional Statements
+- Loops
+- Arrays and Collections
+- Methods
 
-## 🛠️ Технологии
+### Module 2: OOP in C#
+
+- Classes and Objects
+- Inheritance and Polymorphism
+- Interfaces and Abstract Classes
+- Design Patterns
+
+### Module 3: Game Concepts
+
+- Game Loop
+- Component System
+- Event System
+
+## 🛠️ Technologies
+
 - HTML5
-- CSS3 (с градиентами и анимациями)
-- Vanilla JavaScript (без зависимостей)
+- CSS3 (with gradients and animations)
+- Vanilla JavaScript (no dependencies)
 
-## 📱 Адаптивность
-Сайт полностью адаптирован для мобильных устройств и планшетов.
+## 📱 Responsiveness
 
-## 🎨 Особенности
-- Современный дизайн с градиентами
-- Плавные анимации и переходы
-- Подсветка кода
-- Интерактивные примеры
-- Удобная навигация
+The site is fully adapted for mobile devices and tablets.
 
-## 📄 Лицензия
-Соответствует лицензии основного проекта.
+## 🎨 Features
+
+- Modern design with gradients
+- Smooth animations and transitions
+- Code highlighting
+- Interactive examples
+- Convenient navigation
+
+## 📄 License
+
+Follows the main project's license.

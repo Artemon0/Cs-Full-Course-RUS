@@ -3,13 +3,13 @@ using System;
 namespace MyLearn.Module01_CSharpBasics
 {
     /// <summary>
-    /// Урок 3: Условные конструкции
+    /// Lesson 3: Conditional Statements
     /// 
     /// В этом уроке вы изучите:
-    /// - Оператор if и if-else
-    /// - Множественные условия (else if)
-    /// - Вложенные условия
-    /// - Оператор switch
+    /// - if operator и if-else
+    /// - Множественные conditions (else if)
+    /// - Вложенные conditions
+    /// - switch operator
     /// - Тернарный оператор
     /// </summary>
     public class Conditionals
@@ -17,13 +17,13 @@ namespace MyLearn.Module01_CSharpBasics
         // Для запуска этого урока раскомментируйте Main и закомментируйте Main в других файлах
         public static void RunDemo()
         {
-            Console.WriteLine("=== Урок 3: Условные конструкции ===\n");
+            Console.WriteLine("=== Lesson 3: Conditional Statements ===\n");
 
             // ========================================
             // 1. ОПЕРАТОР IF
             // ========================================
 
-            Console.WriteLine("--- Оператор if ---");
+            Console.WriteLine("--- if operator ---");
 
             int playerHealth = 30;
 
@@ -47,7 +47,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 2. ОПЕРАТОР IF-ELSE
             // ========================================
 
-            Console.WriteLine("--- Оператор if-else ---");
+            Console.WriteLine("--- if operator-else ---");
 
             bool hasKey = true;
 
@@ -78,7 +78,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 3. МНОЖЕСТВЕННЫЕ УСЛОВИЯ (ELSE IF)
             // ========================================
 
-            Console.WriteLine("--- Множественные условия ---");
+            Console.WriteLine("--- Множественные conditions ---");
 
             int health = 75;
 
@@ -131,7 +131,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 4. ВЛОЖЕННЫЕ УСЛОВИЯ
             // ========================================
 
-            Console.WriteLine("--- Вложенные условия ---");
+            Console.WriteLine("--- Вложенные conditions ---");
 
             bool isAlive = true;
             int mana = 60;
@@ -161,7 +161,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 5. ЛОГИЧЕСКИЕ ОПЕРАТОРЫ В УСЛОВИЯХ
             // ========================================
 
-            Console.WriteLine("--- Логические операторы ---");
+            Console.WriteLine("--- Логические operators ---");
 
             int level = 10;
             bool hasWeapon = true;
@@ -200,7 +200,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 6. ОПЕРАТОР SWITCH
             // ========================================
 
-            Console.WriteLine("--- Оператор switch ---");
+            Console.WriteLine("--- switch operator ---");
 
             string weaponType = "Sword";
 
@@ -258,7 +258,7 @@ namespace MyLearn.Module01_CSharpBasics
 
             int currentHealth = 45;
             string healthStatus = currentHealth > 50 ? "Здоров" : "Ранен";
-            Console.WriteLine($"Статус: {healthStatus}");
+            Console.WriteLine($"Status: {healthStatus}");
 
             // Определение урона
             bool isCritical = true;
@@ -408,7 +408,7 @@ namespace MyLearn.Module01_CSharpBasics
  * ========================================
  * 
  * 1. Система доступа:
- *    - Создайте переменные: age = 16, hasTicket = true
+ *    - Создайте variables: age = 16, hasTicket = true
  *    - Проверьте: если возраст >= 18 И есть билет, то "Вход разрешен"
  *    - Иначе выведите причину отказа
  * 
@@ -461,7 +461,7 @@ namespace MyLearn.Module01_CSharpBasics
  *    - If-Else: для сложных условий с разными переменными
  * 
  * 3. Фигурные скобки:
- *    - Можно опустить для одной строки, но не рекомендуется
+ *    - Можно опустить для одной linesи, но не рекомендуется
  *    if (condition)
  *        DoSomething(); // Работает, но опасно
  *    

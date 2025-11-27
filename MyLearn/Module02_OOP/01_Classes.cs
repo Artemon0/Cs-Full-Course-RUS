@@ -4,14 +4,14 @@ using System.Collections.Generic;
 namespace MyLearn.Module02_OOP
 {
     /// <summary>
-    /// Урок 1: Классы и объекты
+    /// Lesson 1: Classes and Objects
     /// 
     /// В этом уроке вы изучите:
-    /// - Что такое классы и объекты
-    /// - Поля и свойства
-    /// - Конструкторы
-    /// - Методы класса
-    /// - Модификаторы доступа
+    /// - Что такое classes и объекты
+    /// - Fields и свойства
+    /// - Constructorы
+    /// - Methods класса
+    /// - Access modifiers
     /// </summary>
 
     // ========================================
@@ -20,13 +20,13 @@ namespace MyLearn.Module02_OOP
 
     public class Player
     {
-        // Поля (fields) - данные класса
+        // Fields (fields) - данные класса
         public string name;
         public int health;
         public int maxHealth;
         public int level;
 
-        // Конструктор - вызывается при создании объекта
+        // Constructor - вызывается при создании объекта
         public Player(string playerName, int startHealth)
         {
             name = playerName;
@@ -35,7 +35,7 @@ namespace MyLearn.Module02_OOP
             level = 1;
         }
 
-        // Методы - действия класса
+        // Methods - действия класса
         public void TakeDamage(int damage)
         {
             health -= damage;
@@ -62,9 +62,9 @@ namespace MyLearn.Module02_OOP
         public void DisplayInfo()
         {
             Console.WriteLine($"\n--- {name} ---");
-            Console.WriteLine($"Уровень: {level}");
+            Console.WriteLine($"Level: {level}");
             Console.WriteLine($"HP: {health}/{maxHealth}");
-            Console.WriteLine($"Статус: {(IsAlive() ? "Жив" : "Мертв")}");
+            Console.WriteLine($"Status: {(IsAlive() ? "Жив" : "Мертв")}");
         }
     }
 
@@ -150,7 +150,7 @@ namespace MyLearn.Module02_OOP
         public int GoldReward { get; set; }
         public int ExpReward { get; set; }
 
-        // Конструктор по умолчанию
+        // Constructor по умолчанию
         public Enemy()
         {
             Name = "Гоблин";
@@ -160,7 +160,7 @@ namespace MyLearn.Module02_OOP
             ExpReward = 25;
         }
 
-        // Конструктор с параметрами
+        // Constructor с параметрами
         public Enemy(string name, int health, int damage)
         {
             Name = name;
@@ -170,7 +170,7 @@ namespace MyLearn.Module02_OOP
             ExpReward = health / 2;
         }
 
-        // Конструктор со всеми параметрами
+        // Constructor со всеми параметрами
         public Enemy(string name, int health, int damage, int gold, int exp)
         {
             Name = name;
@@ -213,7 +213,7 @@ namespace MyLearn.Module02_OOP
         public static int TotalGoldCollected = 0;
         public static float GameTime = 0f;
 
-        // Статический метод
+        // Static метод
         public static void EnemyKilled(int goldReward)
         {
             TotalEnemiesKilled++;
@@ -226,7 +226,7 @@ namespace MyLearn.Module02_OOP
             Console.WriteLine("\n=== Статистика игры ===");
             Console.WriteLine($"Убито врагов: {TotalEnemiesKilled}");
             Console.WriteLine($"Собрано золота: {TotalGoldCollected}");
-            Console.WriteLine($"Время игры: {GameTime:F1} сек");
+            Console.WriteLine($"Time игры: {GameTime:F1} сек");
         }
     }
 
@@ -321,7 +321,7 @@ namespace MyLearn.Module02_OOP
         // Для запуска этого урока раскомментируйте Main и закомментируйте Main в других файлах
         public static void RunDemo()
         {
-            Console.WriteLine("=== Урок 1: Классы и объекты ===\n");
+            Console.WriteLine("=== Lesson 1: Classes and Objects ===\n");
 
             // ========================================
             // 1. СОЗДАНИЕ ОБЪЕКТОВ
@@ -464,23 +464,23 @@ namespace MyLearn.Module02_OOP
  *    - Создайте несколько персонажей и протестируйте
  * 
  * 2. Класс Item:
- *    - Поля: name, description, value, weight
+ *    - Fields: name, description, value, weight
  *    - Свойства с валидацией (value и weight не могут быть отрицательными)
  *    - Метод Display() для вывода информации
  * 
  * 3. Класс Quest:
- *    - Поля: title, description, reward, isCompleted
- *    - Методы: Start(), Complete(), Display()
+ *    - Fields: title, description, reward, isCompleted
+ *    - Methods: Start(), Complete(), Display()
  *    - Создайте систему из 3 квестов
  * 
  * 4. Класс Shop:
- *    - Список товаров (используйте вложенный класс ShopItem)
- *    - Методы: AddItem(), BuyItem(), DisplayItems()
+ *    - List товаров (используйте вложенный класс ShopItem)
+ *    - Methods: AddItem(), BuyItem(), DisplayItems()
  *    - Реализуйте покупку с проверкой золота
  * 
  * 5. Класс Skill:
- *    - Поля: name, manaCost, damage, cooldown
- *    - Методы: Use(), IsReady()
+ *    - Fields: name, manaCost, damage, cooldown
+ *    - Methods: Use(), IsReady()
  *    - Создайте несколько навыков для персонажа
  * 
  * ========================================
@@ -491,13 +491,13 @@ namespace MyLearn.Module02_OOP
  *    - Класс - это чертеж/шаблон
  *    - Объект - это конкретный экземпляр класса
  * 
- * 2. Модификаторы доступа:
+ * 2. Access modifiers:
  *    - public: доступен везде
  *    - private: доступен только внутри класса
  *    - protected: доступен в классе и наследниках
  * 
- * 3. Свойства vs Поля:
- *    - Поля: прямой доступ к данным
+ * 3. Свойства vs Fields:
+ *    - Fields: прямой доступ к данным
  *    - Свойства: контролируемый доступ через get/set
  * 
  * 4. Статические члены:

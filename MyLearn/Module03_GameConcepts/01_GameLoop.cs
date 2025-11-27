@@ -4,7 +4,7 @@ using System.Threading;
 namespace MyLearn.Module03_GameConcepts
 {
     /// <summary>
-    /// Урок 11: Игровой цикл (Game Loop)
+    /// Lesson 11: Игровой цикл (Game Loop)
     /// 
     /// Концепции Unity без самого Unity:
     /// - Игровой цикл (аналог Update)
@@ -16,9 +16,9 @@ namespace MyLearn.Module03_GameConcepts
         public static void Run()
         {
             Console.Clear();
-            Console.WriteLine("=== Урок 11: Игровой цикл ===\n");
+            Console.WriteLine("=== Lesson 11: Игровой цикл ===\n");
 
-            Console.WriteLine("Игровой цикл - это сердце любой игры.");
+            Console.WriteLine("Игровой цикл - это сердце люcombat игры.");
             Console.WriteLine("Он постоянно обновляет состояние игры (60 раз в секунду).\n");
 
             // Пример 1: Простой счетчик кадров
@@ -88,7 +88,7 @@ while (игра_запущена)
                 Console.WriteLine($"Кадр {i + 1}: deltaTime={deltaTime:F3}s, позиция={position:F2}");
             }
 
-            Console.WriteLine("\n💡 Без deltaTime движение зависело бы от FPS!");
+            Console.WriteLine("\n💡 Без deltaTime movement зависело бы от FPS!");
             Console.WriteLine("Нажмите Enter...");
             Console.ReadLine();
         }
@@ -136,7 +136,7 @@ while (игра_запущена)
             Console.WriteLine("\n✅ Упражнение:");
             Console.WriteLine("1. Добавьте скорость движения к SimpleGameObject");
             Console.WriteLine("2. Сделайте так, чтобы игрок двигался к врагу");
-            Console.WriteLine("3. Остановите движение когда расстояние < 1");
+            Console.WriteLine("3. Остановите movement когда расстояние < 1");
         }
     }
 
@@ -158,7 +158,7 @@ while (игра_запущена)
 
         public void Update(float deltaTime)
         {
-            // Случайное движение
+            // Случайное movement
             X += (float)(random.NextDouble() - 0.5) * deltaTime * 2;
             Y += (float)(random.NextDouble() - 0.5) * deltaTime * 2;
         }

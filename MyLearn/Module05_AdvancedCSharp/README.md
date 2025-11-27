@@ -1,4 +1,4 @@
-# Модуль 5: Продвинутый C#
+﻿# Модуль 5: Продвинутый C#
 
 ## 🎯 Цели модуля
 
@@ -21,11 +21,11 @@
 ### 3. LINQ (Language Integrated Query)
 - Where, Select, OrderBy
 - First, Last, Any, All
-- Aggregate функции
+- Aggregate Functions
 - Применение в играх
 
 ### 4. Generics (Обобщения)
-- Generic классы
+- Generic classes
 - Generic методы
 - Ограничения (constraints)
 - Generic коллекции
@@ -74,7 +74,7 @@ public class ScoreManager : MonoBehaviour
     }
 }
 
-// LINQ - Поиск врагов
+// LINQ - Search врагов
 List<Enemy> enemies = FindObjectsOfType<Enemy>().ToList();
 
 // Найти ближайшего врага
@@ -134,7 +134,7 @@ public async void LoadSceneAsync(string sceneName)
 }
 ```
 
-## 💡 Ключевые паттерны
+## 💡 Ключевые patterns
 
 ### Event-Driven Architecture
 ```csharp
@@ -185,10 +185,11 @@ public class GameManager : Singleton<GameManager>
 }
 ```
 
-## ⏱️ Время изучения
+## ⏱️ Time изучения
 
 Рекомендуемое время: **2 недели**
 
 ## 🚀 Следующий шаг
 
 [Модуль 6: Rider для Unity](../Module06_RiderTips/)
+

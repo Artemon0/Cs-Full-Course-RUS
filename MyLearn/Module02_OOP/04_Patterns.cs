@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace MyLearn.Module02_OOP
 {
     /// <summary>
-    /// Урок 4: Паттерны проектирования
+    /// Lesson 4: Design Patterns
     /// 
     /// В этом уроке вы изучите:
     /// - Singleton (Одиночка)
@@ -40,7 +40,7 @@ namespace MyLearn.Module02_OOP
             }
         }
 
-        // Приватный конструктор - нельзя создать извне
+        // Private конструктор - нельзя создать извне
         private GameController()
         {
             Console.WriteLine("GameManager создан");
@@ -66,7 +66,7 @@ namespace MyLearn.Module02_OOP
         public void NextLevel()
         {
             Level++;
-            Console.WriteLine($"⬆️ Уровень {Level}!");
+            Console.WriteLine($"⬆️ Level {Level}!");
         }
     }
 
@@ -114,7 +114,7 @@ namespace MyLearn.Module02_OOP
     /// Используется для: создание врагов, предметов, оружия
     /// </summary>
 
-    // Базовый класс врага
+    // Base class врага
     public abstract class EnemyBase
     {
         public string Name { get; set; } = "";
@@ -238,7 +238,7 @@ namespace MyLearn.Module02_OOP
         public static event PlayerLevelUpHandler? OnPlayerLevelUp;
         public static event ItemCollectedHandler? OnItemCollected;
 
-        // Методы для вызова событий
+        // Methods для вызова событий
         public static void EnemyKilled(string enemyName, int reward)
         {
             Console.WriteLine($"📢 Событие: Враг {enemyName} убит!");
@@ -326,7 +326,7 @@ namespace MyLearn.Module02_OOP
 
         private void UpdateLevelDisplay(int newLevel)
         {
-            Console.WriteLine($"  📺 UIManager: Обновление UI - Уровень {newLevel}");
+            Console.WriteLine($"  📺 UIManager: Обновление UI - Level {newLevel}");
         }
 
         private void ShowItemNotification(string itemName)
@@ -552,7 +552,7 @@ namespace MyLearn.Module02_OOP
         // Для запуска этого урока раскомментируйте Main и закомментируйте Main в других файлах
         public static void RunDemo()
         {
-            Console.WriteLine("=== Урок 4: Паттерны проектирования ===\n");
+            Console.WriteLine("=== Lesson 4: Design Patterns ===\n");
 
             // ========================================
             // 1. SINGLETON
@@ -604,7 +604,7 @@ namespace MyLearn.Module02_OOP
             for (int level = 1; level <= 10; level += 3)
             {
                 EnemyBase levelEnemy = EnemyFactory.CreateEnemyForLevel(level);
-                Console.WriteLine($"Уровень {level}: {levelEnemy.Name}");
+                Console.WriteLine($"Level {level}: {levelEnemy.Name}");
             }
 
             // ========================================
@@ -729,7 +729,7 @@ namespace MyLearn.Module02_OOP
  * 5. Продвинутое задание:
  *    - Создайте систему навыков с Command
  *    - Возможность отмены
- *    - Макросы (последовательность команд)
+ *    - Macroы (последовательность команд)
  *    - Сохранение истории
  * 
  * ========================================
@@ -739,7 +739,7 @@ namespace MyLearn.Module02_OOP
  * Singleton:
  * ✅ Нужен глобальный доступ
  * ✅ Только один экземпляр
- * ❌ Усложняет тестирование
+ * ❌ Усложняет Testing
  * 
  * Factory:
  * ✅ Сложная логика создания
@@ -758,7 +758,7 @@ namespace MyLearn.Module02_OOP
  * 
  * Command:
  * ✅ Нужна отмена операций
- * ✅ Очередь операций
+ * ✅ Queue операций
  * ✅ Логирование действий
  * 
  * ========================================
@@ -766,7 +766,7 @@ namespace MyLearn.Module02_OOP
  * ========================================
  * 
  * 1. Злоупотребление Singleton:
- *    - Не делайте все классы Singleton
+ *    - Не делайте все classes Singleton
  *    - Используйте только когда действительно нужно
  * 
  * 2. Забыли отписаться от событий:

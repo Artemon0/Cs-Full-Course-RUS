@@ -4,13 +4,13 @@ using System.Collections.Generic;
 namespace MyLearn.Module02_OOP
 {
     /// <summary>
-    /// Урок 2: Наследование и полиморфизм
+    /// Lesson 2: Inheritance and Polymorphism
     /// 
     /// В этом уроке вы изучите:
-    /// - Что такое наследование
-    /// - Базовые и производные классы
+    /// - Что такое inheritance
+    /// - Базовые и производные classes
     /// - Ключевые слова virtual и override
-    /// - Полиморфизм
+    /// - Polymorphism
     /// - Ключевое слово base
     /// </summary>
 
@@ -75,7 +75,7 @@ namespace MyLearn.Module02_OOP
     {
         public int Armor { get; set; }
 
-        // Конструктор вызывает конструктор базового класса через base
+        // Constructor вызывает конструктор базового класса через base
         public Warrior(string name, int health, int damage, int armor)
             : base(name, health, damage)
         {
@@ -360,18 +360,18 @@ namespace MyLearn.Module02_OOP
         // Для запуска этого урока раскомментируйте Main и закомментируйте Main в других файлах
         public static void RunDemo()
         {
-            Console.WriteLine("=== Урок 2: Наследование и полиморфизм ===\n");
+            Console.WriteLine("=== Lesson 2: Inheritance and Polymorphism ===\n");
 
             // ========================================
             // 1. БАЗОВОЕ НАСЛЕДОВАНИЕ
             // ========================================
 
-            Console.WriteLine("--- Базовое наследование ---");
+            Console.WriteLine("--- Базовое inheritance ---");
 
             Character baseChar = new Character("Базовый персонаж", 100, 20);
             Warrior warrior = new Warrior("Воин", 150, 25, 10);
             Mage mage = new Mage("Маг", 80, 30, 100);
-            Rogue rogue = new Rogue("Разбойник", 90, 35, 25);
+            Rogue rogue = new Rogue("Разcombatник", 90, 35, 25);
 
             baseChar.DisplayInfo();
             warrior.DisplayInfo();
@@ -382,9 +382,9 @@ namespace MyLearn.Module02_OOP
             // 2. ПОЛИМОРФИЗМ
             // ========================================
 
-            Console.WriteLine("\n--- Полиморфизм ---");
+            Console.WriteLine("\n--- Polymorphism ---");
 
-            // Все классы можно хранить как Character
+            // Все classes можно хранить как Character
             List<Character> party = new List<Character>
             {
                 warrior,
@@ -412,7 +412,7 @@ namespace MyLearn.Module02_OOP
             Console.WriteLine("\nМаг атакует гоблина:");
             mage.Attack(goblin);
 
-            Console.WriteLine("\nРазбойник атакует гоблина:");
+            Console.WriteLine("\nРазcombatник атакует гоблина:");
             rogue.Attack(goblin);
 
             // ========================================
@@ -432,7 +432,7 @@ namespace MyLearn.Module02_OOP
             // 5. ИЕРАРХИЯ ВРАГОВ
             // ========================================
 
-            Console.WriteLine("\n--- Иерархия врагов ---");
+            Console.WriteLine("\n--- Hierarchy врагов ---");
 
             List<EnemyCharacter> enemies = new List<EnemyCharacter>
             {
@@ -482,7 +482,7 @@ namespace MyLearn.Module02_OOP
             // 7. ИЕРАРХИЯ ОРУЖИЯ
             // ========================================
 
-            Console.WriteLine("\n--- Иерархия оружия ---");
+            Console.WriteLine("\n--- Hierarchy оружия ---");
 
             List<WeaponItem> weapons = new List<WeaponItem>
             {
@@ -507,7 +507,7 @@ namespace MyLearn.Module02_OOP
             // 8. ПОЛИМОРФИЗМ В ДЕЙСТВИИ
             // ========================================
 
-            Console.WriteLine("\n--- Полиморфизм в действии ---");
+            Console.WriteLine("\n--- Polymorphism в действии ---");
 
             // Можем хранить разные типы в одном массиве
             Character[] characters = new Character[]
@@ -543,7 +543,7 @@ namespace MyLearn.Module02_OOP
  * ========================================
  * 
  * 1. Создайте иерархию транспорта:
- *    - Базовый класс Vehicle (speed, fuel)
+ *    - Base class Vehicle (speed, fuel)
  *    - Car : Vehicle (doors)
  *    - Motorcycle : Vehicle (hasHelmet)
  *    - Truck : Vehicle (cargoCapacity)
@@ -580,8 +580,8 @@ namespace MyLearn.Module02_OOP
  * ВАЖНЫЕ КОНЦЕПЦИИ
  * ========================================
  * 
- * 1. Наследование:
- *    - Производный класс получает все члены базового
+ * 1. Inheritance:
+ *    - Derived class получает все члены базового
  *    - Используйте : для наследования
  *    - Можно наследоваться только от одного класса
  * 
@@ -595,7 +595,7 @@ namespace MyLearn.Module02_OOP
  *    - Вызов методов базового класса
  *    - base.Method() внутри override
  * 
- * 4. Полиморфизм:
+ * 4. Polymorphism:
  *    - Один интерфейс, разные реализации
  *    - Character может быть Warrior, Mage, etc.
  *    - Вызов правильного метода в runtime

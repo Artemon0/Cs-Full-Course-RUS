@@ -1,35 +1,36 @@
-# Лицензия
+# License
 
-## Образовательная лицензия
+## Educational License
 
-Этот проект создан в образовательных целях и предоставляется "как есть".
+This project was created for educational purposes and is provided "as is".
 
-### Разрешается
+### Permitted
 
-✅ Использовать материалы для личного обучения  
-✅ Использовать в образовательных учреждениях  
-✅ Делиться ссылкой на проект  
-✅ Создавать форки и модификации  
-✅ Использовать примеры кода в своих проектах  
+✅ Use materials for personal learning  
+✅ Use in educational institutions  
+✅ Share links to the project  
+✅ Create forks and modifications  
+✅ Use code examples in your own projects
 
-### Требуется
+### Required
 
-📝 Указывать источник при использовании материалов  
-📝 Сохранять уведомление об авторских правах  
+📝 Credit the source when using materials  
+📝 Preserve copyright notices
 
-### Запрещается
+### Prohibited
 
-❌ Продавать материалы курса  
-❌ Выдавать за свою работу  
-❌ Использовать в коммерческих курсах без разрешения  
+❌ Sell course materials  
+❌ Claim the work as your own  
+❌ Use in commercial courses without permission
 
 ---
 
 **Copyright © 2025**
 
-Материалы предоставляются для образовательных целей.
+Materials are provided for educational purposes.
 
-Все торговые марки принадлежат их владельцам:
-- Unity® является торговой маркой Unity Technologies
-- C# является торговой маркой Microsoft Corporation
-- JetBrains Rider® является торговой маркой JetBrains s.r.o.
+All trademarks belong to their owners:
+
+- Unity® is a trademark of Unity Technologies
+- C# is a trademark of Microsoft Corporation
+- JetBrains Rider® is a trademark of JetBrains s.r.o.
