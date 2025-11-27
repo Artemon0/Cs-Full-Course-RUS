@@ -1,107 +1,113 @@
-﻿# ❓ Часто задаваемые вопросы (FAQ)
+﻿# ❓ Frequently Asked Questions (FAQ)
 
-## Общие вопросы
+## General Questions
 
-### Нужен ли мне опыт программирования?
+### Do I need programming experience?
 
-Нет, курс начинается с самых основ. Если вы никогда не программировали - начните с Модуля 1.
+No, the course starts from the very basics. If you've never programmed before - start with Module 1.
 
-### Сколько времени займет обучение?
+### How long will it take to learn?
 
-При занятиях 10-15 часов в неделю - примерно 4-5 месяцев для полного прохождения всех модулей.
+With 10-15 hours of study per week - approximately 4-5 months to complete all modules.
 
-### Нужна ли платная версия Rider?
+### Do I need a paid version of Rider?
 
-Нет, можно использовать Visual Studio Community (бесплатно). Rider рекомендуется, но не обязателен. Для студентов Rider бесплатен.
+No, you can use Visual Studio Community (free). Rider is recommended but not required. Rider is free for students.
 
-### Какую версию Unity использовать?
+### Which Unity version should I use?
 
-Рекомендуется последняя LTS (Long Term Support) версия. На момент создания курса - Unity 2022.3 LTS.
+It's recommended to use the latest LTS (Long Term Support) version. At the time of course creation - Unity 2022.3 LTS.
 
-## Технические вопросы
+## Technical Questions
 
-### Rider не видит Unity проект
+### Rider doesn't see the Unity project
 
 **Solution:**
+
 1. File → Settings → Languages & Frameworks → Unity Engine
-2. Проверьте путь к Unity
-3. Regenerate project files в Unity
-4. Перезапустите Rider
+2. Check the path to Unity
+3. Regenerate project files in Unity
+4. Restart Rider
 
-### Ошибка "using Unity; not found"
+### Error "using Unity; not found"
 
 **Solution:**
-1. Убедитесь, что скрипт находится в папке Assets
-2. Дождитесь компиляции Unity
+
+1. Make sure the script is in the Assets folder
+2. Wait for Unity to compile
 3. Regenerate project files (Edit → Preferences → External Tools)
 
-### Скрипт не работает в Unity
+### Script doesn't work in Unity
 
-**Проверьте:**
-1. Скрипт прикреплен к GameObject?
-2. Нет ошибок компиляции в Console?
-3. Правильное имя класса = имя файла?
-4. Класс наследуется от MonoBehaviour?
+**Check:**
 
-### Breakpoints не срабатывают
+1. Is the script attached to a GameObject?
+2. Are there compilation errors in Console?
+3. Is the class name the same as the file name?
+4. Does the class inherit from MonoBehaviour?
+
+### Breakpoints don't trigger
 
 **Solution:**
-1. Убедитесь, что Rider подключен к Unity (Attach to Unity Process)
-2. Unity должен быть в режиме Play
-3. Проверьте, что код действительно выполняется
 
-## Вопросы по обучению
+1. Make sure Rider is connected to Unity (Attach to Unity Process)
+2. Unity must be in Play mode
+3. Check that the code is actually being executed
 
-### Можно ли пропустить модули?
+## Learning Questions
 
-Не рекомендуется. Каждый модуль строится на знаниях предыдущих. Если у вас есть опыт, можете быстро пролистать знакомые темы.
+### Can I skip modules?
 
-### Что делать, если не понимаю тему?
+Not recommended. Each module builds on the knowledge of the previous ones. If you have experience, you can quickly skim familiar topics.
 
-1. Перечитайте материал
-2. Запустите примеры и поэкспериментируйте
-3. Посмотрите дополнительные видео на YouTube
-4. Задайте вопрос в Unity Forum или Discord
-5. Вернитесь к теме позже
+### What if I don't understand a topic?
 
-### Нужно ли выполнять все упражнения?
+1. Reread the material
+2. Run examples and experiment
+3. Watch additional videos on YouTube
+4. Ask a question on Unity Forum or Discord
+5. Return to the topic later
 
-Да! Практика критически важна. Без exercises вы не закрепите материал.
+### Do I need to complete all exercises?
 
-### Как проверить правильность решения?
+Yes! Practice is critical. Without exercises, you won't solidify the material.
 
-В некоторых модулях есть папка Solutions с готовыми решениями. Но сначала попробуйте сами!
+### How can I verify if my solution is correct?
 
-## Вопросы по проектам
+Some modules have a Solutions folder with ready-made solutions. But try it yourself first!
 
-### С какого проекта начать?
+## Project Questions
 
-Начните с Flappy Bird Clone (Проект 1) - он самый простой и быстрый.
+### Which project should I start with?
 
-### Где взять ассеты (графику, звуки)?
+Start with Flappy Bird Clone (Project 1) - it's the simplest and quickest.
 
-**Бесплатные ресурсы:**
-- [Unity Asset Store](https://assetstore.unity.com/) (есть бесплатные)
-- [itch.io](https://itch.io/game-assets/free) - бесплатные ассеты
-- [OpenGameArt](https://opengameart.org/) - открытая графика
-- [Freesound](https://freesound.org/) - бесплатные звуки
+### Where can I get assets (graphics, sounds)?
 
-### Можно ли изменять проекты?
+**Free Resources:**
 
-Конечно! Более того, это рекомендуется. Добавляйте свои идеи и фичи.
+- [Unity Asset Store](https://assetstore.unity.com/) (has free items)
+- [itch.io](https://itch.io/game-assets/free) - free assets
+- [OpenGameArt](https://opengameart.org/) - open graphics
+- [Freesound](https://freesound.org/) - free sounds
 
-### Проект не работает, что делать?
+### Can I modify the projects?
 
-1. Проверьте Console на Errors
-2. Убедитесь, что все Scripts прикреплены
-3. Проверьте настройки компонентов
-4. Сравните с примером решения
+Of course! In fact, it's recommended. Add your own ideas and features.
 
-## Вопросы по карьере
+### The project doesn't work, what should I do?
+
+1. Check Console for errors
+2. Make sure all Scripts are attached
+3. Check component settings
+4. Compare with the example solution
+
+## Career Questions
 
 ### Достаточно ли этого курса для работы?
 
 Этот курс дает фундамент. Для работы нужно:
+
 - Завершить все проекты
 - Создать свои Games
 - Изучить дополнительные темы (сетевой код, оптимизация, и т.д.)
@@ -110,6 +116,7 @@
 ### Что изучать после курса?
 
 **Следующие шаги:**
+
 1. Продвинутые patterns проектирования
 2. Multiplayer и Networking
 3. Продвинутая оптимизация
@@ -131,6 +138,7 @@
 ### Unity/Rider работает медленно
 
 **Оптимизация:**
+
 1. Закройте ненужные программы
 2. Увеличьте RAM (минимум 8GB, рекомендуется 16GB)
 3. Используйте SSD
@@ -140,6 +148,7 @@
 ### Долгая компиляция скриптов
 
 **Решения:**
+
 1. Разбейте большие Files на маленькие
 2. Используйте Assembly Definitions
 3. Отключите Auto Refresh (Edit → Preferences)
@@ -168,7 +177,7 @@
 **Не нашли ответ на свой вопрос?**
 
 Задайте его в:
+
 - [Unity Forum](https://forum.unity.com/)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/unity3d)
 - [Discord Unity](https://discord.gg/unity)
-

@@ -1,117 +1,131 @@
-﻿# 📊 Обзор проекта обучения C# для Unity
+﻿# 📊 C# Learning Project Overview for Unity
 
-## Что было создано
+## What Was Created
 
-Полноценный курс обучения C# с уклоном на Unity, включающий:
+A complete C# learning course with a focus on Unity, including:
 
-### 📚 8 модулей обучения
+### 📚 8 Learning Modules
 
-1. **Модуль 1: C# Basics** (6 уроков)
-   - Variables и типы данных
+1. **Module 1: C# Basics** (6 lessons)
+
+   - Variables and Data Types
    - Operators and Expressions
    - Conditional Statements
    - Loops
    - Arrays and Collections
    - Methods
 
-2. **Module 2: OOP in C#** (4 урока)
+2. **Module 2: OOP in C#** (4 lessons)
+
    - Classes and Objects
    - Inheritance and Polymorphism
    - Interfaces and Abstract Classes
    - Design Patterns
 
-3. **Модуль 3: Unity Basics**
-   - MonoBehaviour Lifecycle
-   - GameObject и Components
-   - Prefabs и Instantiate
-   - Coroutines
-   - ScriptableObjects
-   - Input System
+3. **Module 3: Game Concepts**
+
+   - Game Loop
+   - Component System
+   - Event System
+   - Physics and Collisions
+   - Input Management
+   - Animation Basics
 
 4. **Module 4: Game Mechanics**
-   - Movement and Controls
-   - Система камеры
-   - Физика и коллизии
-   - Боевая система
-   - UI и HUD
-   - Анимация
 
-5. **Модуль 5: Продвинутый C#**
-   - Delegates и Events
-   - Lambda и LINQ
+   - Movement and Controls
+   - Camera System
+   - Physics and Collisions
+   - Combat System
+   - UI and HUD
+   - Animation
+
+5. **Module 5: Advanced C#**
+
+   - Delegates and Events
+   - Lambda and LINQ
    - Generics
    - Async/Await
 
-6. **Модуль 6: Rider для Unity**
-   - Настройка и конфигурация
+6. **Module 6: Rider for Unity**
+
+   - Setup and Configuration
    - Debugging
-   - Горячие клавиши
-   - Рефакторинг
+   - Keyboard Shortcuts
+   - Refactoring
    - Unity Integration
 
-7. **Модуль 7: Практические Проекты**
+7. **Module 7: Practical Projects**
+
    - Flappy Bird Clone (2D)
    - Top-Down Shooter (2D)
    - Platformer (2D)
    - First-Person Shooter (3D)
    - RPG Combat System (3D)
 
-8. **Модуль 8: Debugging и Оптимизация**
-   - Debugging и логирование
-   - Профилирование
-   - Оптимизация кода
-   - Распространенные Errors
+8. **Module 8: Debugging and Optimization**
+   - Debugging and Logging
+   - Profiling
+   - Code Optimization
+   - Common Errors
 
 ### 📄 Documentation
 
-- **README.md** - главная страница курса
-- **GETTING_STARTED.md** - руководство по началу работы
-- **FAQ.md** - часто задаваемые вопросы
-- **RESOURCES.md** - дополнительные ресурсы
-- **CHEATSHEET.md** - шпаргалка по C# для Unity
-- **PROGRESS_CHECKLIST.md** - детальный чек-лист прогресса
-- **PROJECT_OVERVIEW.md** - этот файл
+- **README.md** - course main page
+- **GETTING_STARTED.md** - getting started guide
+- **FAQ.md** - frequently asked questions
+- **RESOURCES.md** - additional resources
+- **CHEATSHEET.md** - C# cheatsheet for Unity
+- **PROGRESS_CHECKLIST.md** - detailed progress checklist
+- **PROJECT_OVERVIEW.md** - this file
 
 ### 💻 Code
 
-#### Модуль 1 (полностью реализован):
-- ✅ 01_Variables.cs - 300+ lines с примерами
-- ✅ 02_Operators.cs - 350+ lines с примерами
-- ✅ 03_Conditionals.cs - 400+ lines с примерами
-- ✅ 04_Loops.cs - 350+ lines с примерами
-- ✅ 05_Collections.cs - 400+ lines с примерами
-- ✅ 06_Methods.cs - 450+ lines с примерами
+#### Module 1 (fully implemented):
 
-#### Модуль 2 (полностью реализован):
-- ✅ 01_Classes.cs - 500+ lines с примерами
-- ✅ 02_Inheritance.cs - 600+ lines с примерами
-- ✅ 03_Interfaces.cs - 550+ lines с примерами
-- ✅ 04_Patterns.cs - 650+ lines с примерами
+- ✅ 01_Variables.cs - 300+ lines with examples
+- ✅ 02_Operators.cs - 350+ lines with examples
+- ✅ 03_Conditionals.cs - 400+ lines with examples
+- ✅ 04_Loops.cs - 350+ lines with examples
+- ✅ 05_Collections.cs - 400+ lines with examples
+- ✅ 06_Methods.cs - 450+ lines with examples
 
-#### Модули 3-8:
-- ✅ README Files с описанием и структурой
-- 📝 Code примеров - планируется
+#### Module 2 (fully implemented):
 
-### 🎯 Features курса
+- ✅ 01_Classes.cs - 500+ lines with examples
+- ✅ 02_Inheritance.cs - 600+ lines with examples
+- ✅ 03_Interfaces.cs - 550+ lines with examples
+- ✅ 04_Patterns.cs - 650+ lines with examples
 
-#### Практический подход
-- Все примеры связаны с игровой разработкой
-- Реальные игровые сценарии
-- Exercises после каждого урока
+#### Modules 3-8:
+
+- ✅ README Files with description and structure
+- 📝 Code examples - planned
+
+### 🎯 Course Features
+
+#### Practical Approach
+
+- All examples are related to game development
+- Real game scenarios
+- Exercises after each lesson
 - Комплексные проекты
 
 #### Подробные Comments
+
 - Каждая linesа кода объяснена
 - Examples использования
 - Частые Errors и их решения
 - Best practices
 
 #### Прогрессивная сложность
+
 - От простого к сложному
 - Каждый модуль строится на предыдущих
 - Постепенное введение концепций
 
 #### Игровые примеры
+
 - Система здоровья
 - Калькулятор урона
 - Система инвентаря
@@ -122,6 +136,7 @@
 ## Статистика
 
 ### Объем материала
+
 - **Модулей:** 8
 - **Lessonов:** 30+
 - **Строк кода:** 2500+ (только Модуль 1)
@@ -129,11 +144,13 @@
 - **Проектов:** 5
 
 ### Time обучения
+
 - **Минимум:** 3 months (интенсивно)
 - **Рекомендуется:** 4-5 месяцев
 - **Часов в неделю:** 10-15
 
 ### Уровни сложности
+
 - ⭐ Начальный (Модули 1-2)
 - ⭐⭐ Средний (Модули 3-4)
 - ⭐⭐⭐ Продвинутый (Модули 5-8)
@@ -189,12 +206,14 @@ MyLearn/
 ### ✅ Готово к использованию
 
 1. **Модуль 1 полностью готов**
+
    - Все 6 lessons with code
    - Exercises
    - Игровые примеры
    - Можно начинать обучение!
 
 2. **Documentation**
+
    - Все руководства готовы
    - FAQ заполнен
    - Ресурсы собраны
@@ -208,6 +227,7 @@ MyLearn/
 ### 📝 Требует доработки
 
 1. **Модули 2-8**
+
    - Нужно создать Files с кодом
    - Добавить примеры
    - Создать упражнения
@@ -244,16 +264,19 @@ MyLearn/
 ## Планы развития
 
 ### Краткосрочные (1-2 months)
+
 - [ ] Завершить Модуль 2 (ООП)
 - [ ] Создать примеры для Модуля 3 (Unity Basics)
 - [ ] Добавить видео-туториалы
 
 ### Среднесрочные (3-6 месяцев)
+
 - [ ] Завершить все модули с кодом
 - [ ] Создать Unity проекты для Модуля 7
 - [ ] Добавить интерактивные Testы
 
 ### Долгосрочные (6-12 месяцев)
+
 - [ ] Создать веб-платформу для обучения
 - [ ] Добавить систему проверки exercises
 - [ ] Создать сообщество учащихся
@@ -279,4 +302,3 @@ MyLearn/
 **Версия:** 1.0  
 **Дата создания:** Ноябрь 2025  
 **Status:** В разработке (Модули 1-2 готовы)
-

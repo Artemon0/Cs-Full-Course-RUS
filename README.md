@@ -5,7 +5,7 @@ Comprehensive C# course with focus on game development in Unity. From basic synt
 > **📊 Status:** Modules 1-2 fully ready! 10 lessons with code.  
 > **⏱️ Time:** 4-5 months at 10-15 hours per week  
 > **🎯 Level:** From beginners to advanced  
-> **🇷🇺 Language:** Russian (код и Documentation)  
+> **🇬🇧 Language:** English (Code and Documentation)  
 > **💻 Code:** 5000+ lines, 80+ exercises
 
 ## 🌐 Web Version
@@ -39,44 +39,44 @@ Object-Oriented Programming: classes, inheritance, interfaces, patterns.
 - ✅ Interfaces and Abstract Classes (550+ lines)
 - ✅ Design Patterns (650+ lines)
 
-### [Module 3: Unity Basics](MyLearn/Module03_UnityBasics/)
+### [Module 3: Game Concepts](MyLearn/Module03_GameConcepts/)
 
-Unity-specific concepts: MonoBehaviour, GameObject, Coroutines, ScriptableObjects.
+Core game development concepts: Game Loop, Components, Events, and more.
 
-- ✅ MonoBehaviour Lifecycle
-- ✅ GameObject и Components
-- ✅ Prefabs и Instantiate
-- ✅ Coroutines
-- ✅ ScriptableObjects
-- ✅ Input System
+- ✅ Game Loop
+- ✅ Components System
+- ✅ Event System
+- ✅ Physics and Collisions
+- ✅ Input Management
+- ✅ Animation Basics
 
 ### [Module 4: Game Mechanics](MyLearn/Module04_GameMechanics/)
 
 Implementation of basic game systems: movement, camera, physics, combat, UI, animation.
 
 - ✅ Movement and Controls
-- ✅ Система камеры
-- ✅ Физика и коллизии
-- ✅ Боевая система
-- ✅ UI и HUD
-- ✅ Анимация
+- ✅ Camera System
+- ✅ Physics and Collisions
+- ✅ Combat System
+- ✅ UI and HUD
+- ✅ Animation
 
-### [Модуль 5: Продвинутый C#](MyLearn/Module05_AdvancedCSharp/)
+### [Module 5: Advanced C#](MyLearn/Module05_AdvancedCSharp/)
 
-Продвинутые концепции: делегаты, события, LINQ, generics, async/await.
+Advanced concepts: delegates, events, LINQ, generics, async/await.
 
-- ✅ Delegates и Events
-- ✅ Lambda и LINQ
+- ✅ Delegates and Events
+- ✅ Lambda and LINQ
 - ✅ Generics
 - ✅ Async/Await
 
-### [Модуль 6: Rider для Unity](MyLearn/Module06_RiderTips/)
+### [Module 6: Rider Tips](MyLearn/Module06_RiderTips/)
 
-Эффективная работа в Rider IDE: отладка, рефакторинг, горячие клавиши.
+Working efficiently in Rider IDE: debugging, refactoring, hot keys.
 
-### [Модуль 7: Практические Проекты](MyLearn/Module07_Projects/)
+### [Module 7: Practical Projects](MyLearn/Module07_Projects/)
 
-Реальные проекты от простых к сложным:
+Real projects from simple to complex:
 
 - 🐦 Flappy Bird Clone (2D)
 - 🔫 Top-Down Shooter (2D)
@@ -84,70 +84,70 @@ Implementation of basic game systems: movement, camera, physics, combat, UI, ani
 - 🎯 First-Person Shooter (3D)
 - ⚔️ RPG Combat System (3D)
 
-### [Модуль 8: Debugging и Оптимизация](MyLearn/Module08_Debugging/)
+### [Module 8: Debugging and Optimization](MyLearn/Module08_Debugging/)
 
-Search ошибок, профилирование, оптимизация производительности.
+Finding bugs, profiling, performance optimization.
 
-## 🚀 Как начать
+## 🚀 Getting Started
 
-### ⚡ Быстрый старт (5 минут)
+### ⚡ Quick Start (5 minutes)
 
-Хотите начать прямо сейчас? → [QUICKSTART.md](QUICKSTART.md)
+Want to start right now? → [QUICKSTART.md](QUICKSTART.md)
 
-### Полное руководство
+### Complete Guide
 
-1. **Установите инструменты** (см. [GETTING_STARTED.md](GETTING_STARTED.md))
+1. **Install tools** (see [GETTING_STARTED.md](GETTING_STARTED.md))
 
-   - Unity Hub и Unity Editor (LTS версия)
-   - JetBrains Rider или Visual Studio
-   - Git (опционально)
+   - Unity Hub and Unity Editor (LTS version)
+   - JetBrains Rider or Visual Studio
+   - Git (optional)
 
-2. **Откройте первый урок**
+2. **Open the first lesson**
 
-   - Перейдите в `MyLearn/Module01_CSharpBasics/`
-   - Откройте `01_Variables.cs` в Rider
-   - Запустите программу (F5)
+   - Go to `MyLearn/Module01_CSharpBasics/`
+   - Open `01_Variables.cs` in Rider
+   - Run the program (F5)
 
-3. **Следуйте структуре**
+3. **Follow the structure**
 
-   - Читайте код и Comments
-   - Запускайте примеры
-   - Выполняйте упражнения
-   - Создавайте свои вариации
+   - Read the code and Comments
+   - Run examples
+   - Complete exercises
+   - Create your own variations
 
-4. **Отслеживайте прогресс**
-   - Используйте [PROGRESS_CHECKLIST.md](PROGRESS_CHECKLIST.md)
-   - Отмечайте пройденные темы
+4. **Track your progress**
+   - Use [PROGRESS_CHECKLIST.md](PROGRESS_CHECKLIST.md)
+   - Mark completed topics
 
-### Для кого этот курс?
+### Who is this course for?
 
-✅ **Подходит для:**
+✅ **Suitable for:**
 
-- Начинающих программистов
-- Разработчиков, переходящих на Unity
-- Тех, кто хочет систематизировать знания C#
-- Студентов игровых специальностей
+- Beginner programmers
+- Developers moving to Unity
+- Those who want to systematize C# knowledge
+- Game development students
 
-❌ **Не подходит для:**
+❌ **Not suitable for:**
 
-- Опытных Unity разработчиков (слишком базовый)
-- Тех, кто ищет готовые решения без обучения
+- Experienced Unity developers (too basic)
+- Those looking for ready-made solutions without learning
 
-## 📖 Рекомендуемый темп
+## 📖 Recommended Pace
 
-- **Модуль 1-2:** 2-3 недели (C# Basics и ООП)
-- **Модуль 3:** 2 недели (Unity Basics)
-- **Модуль 4:** 3 недели (игровые механики)
-- **Модуль 5:** 2 недели (продвинутый C#)
-- **Модуль 6:** 1 неделя (Rider)
-- **Модуль 7:** 4 недели (проекты)
-- **Модуль 8:** 2 недели (отладка и оптимизация)
+- **Module 1-2:** 2-3 weeks (C# Basics and OOP)
+- **Module 3:** 2 weeks (Game Concepts)
+- **Module 4:** 3 weeks (Game Mechanics)
+- **Module 5:** 2 weeks (Advanced C#)
+- **Module 6:** 1 week (Rider)
+- **Module 7:** 4 weeks (Projects)
+- **Module 8:** 2 weeks (Debugging and Optimization)
 
-**Итого:** 4-5 months at 10-15 hours per week
+**Total:** 4-5 months at 10-15 hours per week
 
-## 💡 Советы по обучению
+## 💡 Learning Tips
 
-- **Пишите код сами** - не копируйте бездумно
+- **Write code yourself** - don't copy blindly
 - **Экспериментируйте** - меняйте примеры, добавляйте свои идеи
 - **Делайте заметки** - записывайте важные концепции
 - **Задавайте вопросы** - используйте Unity форумы и сообщества

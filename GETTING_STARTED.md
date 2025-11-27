@@ -1,102 +1,105 @@
-﻿# 🚀 Начало работы
+﻿# 🚀 Getting Started
 
-## Установка необходимых инструментов
+## Installing Required Tools
 
-### 1. Unity Hub и Unity Editor
+### 1. Unity Hub and Unity Editor
 
-1. Скачайте [Unity Hub](https://unity.com/download)
-2. Установите Unity LTS версию (рекомендуется 2022.3 LTS)
-3. При установке выберите модули:
-   - Visual Studio или Rider (если есть лицензия)
+1. Download [Unity Hub](https://unity.com/download)
+2. Install Unity LTS version (recommend 2022.3 LTS)
+3. When installing, select modules:
+   - Visual Studio or Rider (if you have a license)
    - Documentation
-   - Android Build Support (опционально)
-   - WebGL Build Support (опционально)
+   - Android Build Support (optional)
+   - WebGL Build Support (optional)
 
 ### 2. JetBrains Rider
 
-1. Скачайте [Rider](https://www.jetbrains.com/rider/)
-2. Установите Rider
-3. Активируйте лицензию (есть бесплатная версия для студентов)
+1. Download [Rider](https://www.jetbrains.com/rider/)
+2. Install Rider
+3. Activate a license (free version available for students)
 
-**Альтернатива:** Visual Studio Community (бесплатно)
+**Alternative:** Visual Studio Community (free)
 
-### 3. Git (опционально)
+### 3. Git (optional)
 
-Для контроля версий:
+For version control:
+
 - Windows: [Git for Windows](https://git-scm.com/download/win)
-- Настройте .gitignore для Unity проектов
+- Configure .gitignore for Unity projects
 
-## Настройка Unity для работы с Rider
+## Setting Up Unity with Rider
 
-### Шаг 1: Including Rider к Unity
+### Step 1: Connect Rider to Unity
 
-1. Откройте Unity
+1. Open Unity
 2. Edit → Preferences → External Tools
-3. External Script Editor → выберите Rider
-4. Убедитесь, что "Rider" выбран
+3. External Script Editor → select Rider
+4. Make sure "Rider" is selected
 
-### Шаг 2: Настройка Rider
+### Step 2: Configure Rider
 
-1. Откройте Rider
+1. Open Rider
 2. File → Settings (Ctrl+Alt+S)
 3. Build, Execution, Deployment → Toolset and Build
-4. Убедитесь, что Unity обнаружен
+4. Make sure Unity is detected
 
-### Шаг 3: Первый запуск
+### Step 3: First Launch
 
-1. Создайте новый Unity проект
-2. Создайте C# скрипт
-3. Двойной клик по скрипту → откроется Rider
-4. Rider автоматически настроит проект
+1. Create a new Unity project
+2. Create a C# script
+3. Double-click the script → Rider will open
+4. Rider will automatically configure the project
 
-## Structure обучения
+## Learning Structure
 
-### Рекомендуемый путь
+### Recommended Path
 
 ```
-Неделя 1-2:  Модуль 1 - C# Basics
-Неделя 3-4:  Модуль 2 - ООП
-Неделя 5-6:  Модуль 3 - Unity Basics
-Неделя 7-9:  Модуль 4 - Игровые Механики
-Неделя 10-11: Модуль 5 - Продвинутый C#
-Неделя 12:   Модуль 6 - Rider
-Неделя 13-16: Модуль 7 - Проекты
-Неделя 17-18: Модуль 8 - Debugging
+Week 1-2:   Module 1 - C# Basics
+Week 3-4:   Module 2 - OOP
+Week 5-6:   Module 3 - Game Concepts
+Week 7-9:   Module 4 - Game Mechanics
+Week 10-11: Module 5 - Advanced C#
+Week 12:    Module 6 - Rider
+Week 13-16: Module 7 - Projects
+Week 17-18: Module 8 - Debugging
 ```
 
-### Ежедневный план
+### Daily Plan
 
-**Будни (2 часа):**
-- 1 час: изучение теории и примеров
-- 1 час: выполнение exercises
+**Weekdays (2 hours):**
 
-**Выходные (4-6 часов):**
-- 2 часа: повторение материала
-- 2-4 часа: работа над проектами
+- 1 hour: studying theory and examples
+- 1 hour: completing exercises
 
-## Первые шаги
+**Weekends (4-6 hours):**
 
-### День 1: Знакомство с C#
+- 2 hours: reviewing material
+- 2-4 hours: working on projects
 
-1. Откройте `MyLearn/Module01_CSharpBasics/01_Variables.cs`
-2. Прочитайте код и Comments
-3. Запустите программу (F5 в Rider)
-4. Измените значения переменных
-5. Выполните упражнения в конце файла
+## First Steps
 
-### День 2-3: Operators и conditions
+### Day 1: Getting Familiar with C#
 
-1. Изучите `02_Operators.cs`
-2. Изучите `03_Conditionals.cs`
-3. Создайте свой калькулятор урона
-4. Реализуйте систему рангов
+1. Open `MyLearn/Module01_CSharpBasics/01_Variables.cs`
+2. Read the code and Comments
+3. Run the program (F5 in Rider)
+4. Change variable values
+5. Complete exercises at the end of the file
 
-### День 4-5: Loops и коллекции
+### Day 2-3: Operators and Conditions
 
-1. Изучите `04_Loops.cs`
-2. Изучите `05_Collections.cs`
-3. Создайте систему инвентаря
-4. Реализуйте систему волн врагов
+1. Study `02_Operators.cs`
+2. Study `03_Conditionals.cs`
+3. Create your own damage calculator
+4. Implement a rank system
+
+### Day 4-5: Loops and Collections
+
+1. Study `04_Loops.cs`
+2. Study `05_Collections.cs`
+3. Create an inventory system
+4. Implement enemy waves system
 
 ### День 6-7: Methods
 
@@ -173,6 +176,7 @@
 ## Контакты и поддержка
 
 Если у вас возникли вопросы:
+
 1. Проверьте документацию
 2. Поищите в Google/Stack Overflow
 3. Спросите в Unity Forum
@@ -181,4 +185,3 @@
 ---
 
 **Удачи в обучении! Вы на пути к созданию своих игр! 🎮✨**
-

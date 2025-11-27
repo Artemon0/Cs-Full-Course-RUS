@@ -1,49 +1,52 @@
-﻿# 📝 Шпаргалка C# для Unity
+﻿# 📝 C# Cheatsheet for Unity
 
-## Базовый синтаксис
+## Basic Syntax
 
 ### Variables
+
 ```csharp
-int health = 100;              // Целое число
-float speed = 5.5f;            // Число с плавающей точкой
-string playerName = "Hero";    // Текст
-bool isAlive = true;           // true или false
+int health = 100;              // Integer
+float speed = 5.5f;            // Floating point number
+string playerName = "Hero";    // Text
+bool isAlive = true;           // true or false
 ```
 
 ### Operators
+
 ```csharp
-// Арифметические
+// Arithmetic
 int sum = 5 + 3;        // 8
 int diff = 10 - 4;      // 6
 int product = 3 * 4;    // 12
 int quotient = 10 / 2;  // 5
 int remainder = 10 % 3; // 1
 
-// Сравнение
+// Comparison
 bool equal = (5 == 5);      // true
 bool notEqual = (5 != 3);   // true
 bool greater = (10 > 5);    // true
 bool less = (3 < 7);        // true
 
-// Логические
+// Logical
 bool and = true && false;   // false
 bool or = true || false;    // true
 bool not = !true;           // false
 ```
 
 ### Conditions
+
 ```csharp
 if (health > 50)
 {
-    Debug.Log("Здоров");
+    Debug.Log("Healthy");
 }
 else if (health > 20)
 {
-    Debug.Log("Ранен");
+    Debug.Log("Wounded");
 }
 else
 {
-    Debug.Log("Критично");
+    Debug.Log("Critical");
 }
 
 // Switch
@@ -60,11 +63,12 @@ switch (weaponType)
         break;
 }
 
-// Тернарный оператор
-string status = health > 50 ? "Здоров" : "Ранен";
+// Ternary operator
+string status = health > 50 ? "Healthy" : "Wounded";
 ```
 
 ### Loops
+
 ```csharp
 // For
 for (int i = 0; i < 10; i++)
@@ -85,9 +89,10 @@ foreach (string item in inventory)
 }
 ```
 
-## Коллекции
+## Collections
 
 ### Arrays
+
 ```csharp
 int[] scores = new int[5];
 scores[0] = 100;
@@ -96,6 +101,7 @@ string[] weapons = { "Sword", "Bow", "Staff" };
 ```
 
 ### List
+
 ```csharp
 List<string> inventory = new List<string>();
 inventory.Add("Potion");
@@ -104,6 +110,7 @@ int count = inventory.Count;
 ```
 
 ### Dictionary
+
 ```csharp
 Dictionary<string, int> stats = new Dictionary<string, int>();
 stats.Add("Health", 100);
@@ -114,46 +121,46 @@ int health = stats["Health"];
 ## Methods
 
 ```csharp
-// Без возврата
+// Without return
 void PrintMessage(string message)
 {
     Debug.Log(message);
 }
 
-// С возвратом
+// With return
 int CalculateDamage(int base, int bonus)
 {
     return base + bonus;
 }
 
-// Вызов
+// Calling
 PrintMessage("Hello");
 int damage = CalculateDamage(20, 10);
 ```
 
 ## Classes
 
-```csharp
+````csharp
 public class Player
 {
     // Fields
     public string name;
     private int health;
-    
-    // Свойства
+
+    // Properties
     public int Health
     {
         get { return health; }
         set { health = value; }
     }
-    
+
     // Constructor
     public Player(string playerName)
     {
         name = playerName;
         health = 100;
     }
-    
+
     // Methods
     public void TakeDamage(int damage)
     {
@@ -161,14 +168,13 @@ public class Player
     }
 }
 
-// Использование
+// Usage
 Player player = new Player("Hero");
 player.TakeDamage(20);
-```
-
-## Unity специфичное
+```## Unity специфичное
 
 ### MonoBehaviour
+
 ```csharp
 public class PlayerController : MonoBehaviour
 {
@@ -176,66 +182,69 @@ public class PlayerController : MonoBehaviour
     {
         // Инициализация (вызывается первым)
     }
-    
+
     void Start()
     {
         // Старт (после Awake)
     }
-    
+
     void Update()
     {
         // Каждый кадр
     }
-    
+
     void FixedUpdate()
     {
         // Фиксированный интервал (physics)
     }
-    
+
     void LateUpdate()
     {
         // После всех Update (camera)
     }
 }
-```
+````
 
-### GameObject и Components
+### GameObject and Components
+
 ```csharp
-// Получить компонент
+// Get component
 Rigidbody rb = GetComponent<Rigidbody>();
 
-// Найти объект
+// Find object
 GameObject player = GameObject.Find("Player");
 GameObject enemy = GameObject.FindWithTag("Enemy");
 
-// Создать объект
+// Create object
 GameObject bullet = Instantiate(bulletPrefab, position, rotation);
 
-// Уничтожить объект
+// Destroy object
 Destroy(gameObject);
-Destroy(gameObject, 2f); // Через 2 секунды
+Destroy(gameObject, 2f); // After 2 seconds
 ```
 
 ### Transform
+
 ```csharp
-// Позиция
+// Position
 transform.position = new Vector3(0, 0, 0);
 transform.position += Vector3.forward;
 
-// Поворот
+// Rotation
 transform.rotation = Quaternion.identity;
 transform.Rotate(0, 90, 0);
 
-// Масштаб
+// Scale
 transform.localScale = new Vector3(2, 2, 2);
 
-// Родитель
+// Parent
 transform.parent = parentTransform;
 ```
 
 ### Input
+
 ```csharp
-// Клавиши
+// Keys
 if (Input.GetKeyDown(KeyCode.Space))
 {
     Jump();
@@ -246,11 +255,11 @@ if (Input.GetKey(KeyCode.W))
     MoveForward();
 }
 
-// Оси
+// Axes
 float horizontal = Input.GetAxis("Horizontal");
 float vertical = Input.GetAxis("Vertical");
 
-// Мышь
+// Mouse
 if (Input.GetMouseButtonDown(0))
 {
     Shoot();
@@ -258,23 +267,25 @@ if (Input.GetMouseButtonDown(0))
 ```
 
 ### Coroutines
+
 ```csharp
-// Определение
+// Definition
 IEnumerator SpawnEnemies()
 {
     yield return new WaitForSeconds(2f);
     Instantiate(enemyPrefab);
 }
 
-// Запуск
+// Start
 StartCoroutine(SpawnEnemies());
 
-// Остановка
+// Stop
 StopCoroutine(SpawnEnemies());
 StopAllCoroutines();
 ```
 
 ### Collisions
+
 ```csharp
 // Collision
 void OnCollisionEnter(Collision collision)
@@ -296,6 +307,7 @@ void OnTriggerEnter(Collider other)
 ```
 
 ### Physics
+
 ```csharp
 // Raycast
 if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, 10f))
@@ -310,6 +322,7 @@ rb.velocity = new Vector3(moveX, rb.velocity.y, moveZ);
 ```
 
 ### UI
+
 ```csharp
 using UnityEngine.UI;
 
@@ -326,17 +339,18 @@ Image healthBar = GetComponent<Image>();
 healthBar.fillAmount = health / maxHealth;
 ```
 
-## Продвинутое
+## Advanced
 
 ### Events
+
 ```csharp
-// Определение
+// Definition
 public static event Action<int> OnScoreChanged;
 
-// Вызов
+// Invoke
 OnScoreChanged?.Invoke(newScore);
 
-// Подписка
+// Subscribe
 void OnEnable()
 {
     OnScoreChanged += UpdateScore;
@@ -349,6 +363,7 @@ void OnDisable()
 ```
 
 ### LINQ
+
 ```csharp
 using System.Linq;
 
@@ -363,6 +378,7 @@ Enemy closest = enemies.OrderBy(e => Vector3.Distance(transform.position, e.tran
 ```
 
 ### ScriptableObject
+
 ```csharp
 [CreateAssetMenu(fileName = "WeaponData", menuName = "Data/Weapon")]
 public class WeaponData : ScriptableObject
@@ -373,29 +389,29 @@ public class WeaponData : ScriptableObject
 }
 ```
 
-## Полезные атрибуты
+## Useful Attributes
 
 ```csharp
-[SerializeField] private int health;        // Видно в Inspector
-[HideInInspector] public int score;         // Скрыто в Inspector
-[Range(0, 100)] public int volume;          // Слайдер
-[Header("Player Stats")] public int level;  // Заголовок
-[Tooltip("Player health")] public int hp;   // Подсказка
-[RequireComponent(typeof(Rigidbody))]       // Требует компонент
+[SerializeField] private int health;        // Visible in Inspector
+[HideInInspector] public int score;         // Hidden in Inspector
+[Range(0, 100)] public int volume;          // Slider
+[Header("Player Stats")] public int level;  // Header
+[Tooltip("Player health")] public int hp;   // Tooltip
+[RequireComponent(typeof(Rigidbody))]       // Requires component
 ```
 
 ## Debug
 
 ```csharp
-Debug.Log("Message");                       // Обычное сообщение
-Debug.LogWarning("Warning");                // Предупреждение
-Debug.LogError("Error");                    // Ошибка
+Debug.Log("Message");                       // Normal message
+Debug.LogWarning("Warning");                // Warning
+Debug.LogError("Error");                    // Error
 
-Debug.DrawRay(origin, direction, Color.red, 2f);  // Луч в Scene
-Debug.DrawLine(start, end, Color.blue);           // Линия в Scene
+Debug.DrawRay(origin, direction, Color.red, 2f);  // Ray in Scene
+Debug.DrawLine(start, end, Color.blue);           // Line in Scene
 ```
 
-## Математика
+## Math
 
 ```csharp
 // Vector3
@@ -408,18 +424,19 @@ Vector3 direction = (target - transform.position).normalized;
 // Mathf
 int max = Mathf.Max(5, 10);                 // 10
 int min = Mathf.Min(5, 10);                 // 5
-float clamp = Mathf.Clamp(value, 0, 100);   // Constraint
-float lerp = Mathf.Lerp(a, b, t);           // Интерполяция
+float clamp = Mathf.Clamp(value, 0, 100);   // Clamp value
+float lerp = Mathf.Lerp(a, b, t);           // Interpolation
 ```
 
-## Частые patterns
+## Common Patterns
 
 ### Singleton
+
 ```csharp
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    
+
     void Awake()
     {
         if (Instance == null)
@@ -436,6 +453,7 @@ public class GameManager : MonoBehaviour
 ```
 
 ### Object Pool
+
 ```csharp
 Queue<GameObject> pool = new Queue<GameObject>();
 
@@ -459,5 +477,4 @@ void Return(GameObject obj)
 
 ---
 
-**Совет:** Держите эту шпаргалку под рукой во время разработки!
-
+**Tip:** Keep this cheatsheet handy during development!

@@ -1,67 +1,67 @@
-﻿# 🤝 Вклад в проект
+﻿# 🤝 Contributing to the Project
 
-Спасибо за интерес к улучшению курса! Люcombat вклад приветствуется.
+Thank you for interest in improving the course! Your contribution is welcome.
 
-## Как помочь
+## How to Help
 
-### 🐛 Сообщить об ошибке
+### 🐛 Report a Bug
 
-Нашли ошибку в коде или документации?
+Found a bug in code or documentation?
 
-1. Проверьте, не создан ли уже Issue
-2. Создайте новый Issue с описанием:
-   - Что не работает
-   - Ожидаемое поведение
-   - Шаги для воспроизведения
-   - Скриншоты (если применимо)
+1. Check if an Issue hasn't been created yet
+2. Create a new Issue with a description:
+   - What doesn't work
+   - Expected behavior
+   - Steps to reproduce
+   - Screenshots (if applicable)
 
-### 💡 Предложить улучшение
+### 💡 Suggest an Improvement
 
-Есть идея как улучшить курс?
+Have an idea on how to improve the course?
 
-1. Создайте Issue с тегом "enhancement"
-2. Опишите предложение
-3. Объясните, почему это полезно
+1. Create an Issue with the "enhancement" tag
+2. Describe your suggestion
+3. Explain why it's useful
 
-### 📝 Исправить ошибку
+### 📝 Fix a Bug
 
-1. Форкните репозиторий
-2. Создайте ветку: `git checkout -b fix/описание-Errors`
-3. Внесите изменения
-4. Закоммитьте: `git commit -m "Fix: описание исправления"`
-5. Запушьте: `git push origin fix/описание-Errors`
-6. Создайте Pull Request
+1. Fork the repository
+2. Create a branch: `git checkout -b fix/error-description`
+3. Make your changes
+4. Commit: `git commit -m "Fix: fix description"`
+5. Push: `git push origin fix/error-description`
+6. Create a Pull Request
 
-### ✨ Добавить новый контент
+### ✨ Add New Content
 
-Хотите добавить новый урок или пример?
+Want to add a new lesson or example?
 
-1. Форкните репозиторий
-2. Создайте ветку: `git checkout -b feature/новая-фича`
-3. Добавьте контент
-4. Следуйте стилю существующего кода
-5. Добавьте Comments на русском
-6. Создайте Pull Request
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/new-feature`
+3. Add content
+4. Follow the existing code style
+5. Add comments in English
+6. Create a Pull Request
 
-## Стандарты кода
+## Code Standards
 
-### C# код
+### C# Code
 
 ```csharp
-// ✅ Правильно
+// ✅ Correct
 public class PlayerController : MonoBehaviour
 {
-    // Comments на русском
+    // Comments in English
     private float speed = 5f;
-    
+
     void Update()
     {
-        // Понятные имена переменных
+        // Clear variable names
         float horizontal = Input.GetAxis("Horizontal");
     }
 }
 
-// ❌ Неправильно
+// ❌ Wrong
 public class pc:MonoBehaviour{
 private float s=5f;
 void Update(){float h=Input.GetAxis("Horizontal");}}
@@ -69,44 +69,44 @@ void Update(){float h=Input.GetAxis("Horizontal");}}
 
 ### Comments
 
-- All comments in Russian language
-- Объясняйте "почему", а не "что"
-- Добавляйте примеры использования
-- Указывайте частые Errors
+- All comments in English
+- Explain "why", not "what"
+- Add usage examples
+- Point out common errors
 
-### Structure урока
+### Lesson Structure
 
 ```csharp
 /// <summary>
-/// Lesson X: Название
-/// 
-/// В этом уроке вы изучите:
-/// - Пункт 1
-/// - Пункт 2
+/// Lesson X: Title
+///
+/// In this lesson you will learn:
+/// - Point 1
+/// - Point 2
 /// </summary>
 public class LessonName
 {
-    // Code с комментариями
+    // Code with comments
 }
 
 /*
  * ========================================
- * УПРАЖНЕНИЯ
+ * EXERCISES
  * ========================================
- * 
- * 1. Упражнение 1
- * 2. Упражнение 2
- * 
+ *
+ * 1. Exercise 1
+ * 2. Exercise 2
+ *
  * ========================================
  * ВАЖНЫЕ МОМЕНТЫ
  * ========================================
- * 
+ *
  * Ключевые концепции
- * 
+ *
  * ========================================
  * ЧАСТЫЕ Errors
  * ========================================
- * 
+ *
  * Типичные Problems
  */
 ```
@@ -185,11 +185,11 @@ Feature: Добавлен урок по LINQ
 ✅ Будьте уважительны  
 ✅ Принимайте конструктивную критику  
 ✅ Фокусируйтесь на том, что лучше для сообщества  
-✅ Помогайте новичкам  
+✅ Помогайте новичкам
 
 ❌ Не используйте оскорбительный язык  
 ❌ Не публикуйте личную информацию других  
-❌ Не троллите и не провоцируйте  
+❌ Не троллите и не провоцируйте
 
 ## Вопросы?
 
@@ -208,4 +208,3 @@ Feature: Добавлен урок по LINQ
 ---
 
 **Помните:** Даже небольшой вклад важен! Исправление опечатки или улучшение комментария - это тоже помощь проекту.
-

@@ -1,305 +1,338 @@
-﻿# 📋 Чек-лист прогресса обучения
+﻿# 📋 Learning Progress Checklist
 
-Отмечайте пройденные темы галочками для отслеживания прогресса.
+Check off completed topics to track your progress.
 
-## Модуль 1: C# Basics ⏱️ 2-3 недели
+## Module 1: C# Basics ⏱️ 2-3 weeks
 
-### Lesson 1: Variables и типы данных
-- [ ] Изучил теорию о переменных
-- [ ] Понял разницу между int, float, string, bool
-- [ ] Выполнил все упражнения
-- [ ] Создал систему характеристик персонажа
-- [ ] Создал систему инвентаря с переменными
+### Lesson 1: Variables and Data Types
+
+- [ ] Learned theory about variables
+- [ ] Understood difference between int, float, string, bool
+- [ ] Completed all exercises
+- [ ] Created character stats system
+- [ ] Created inventory system with variables
 
 ### Lesson 2: Operators
-- [ ] Освоил арифметические operators
-- [ ] Понял operators сравнения
-- [ ] Изучил логические operators
-- [ ] Создал калькулятор урона
-- [ ] Реализовал систему опыта
+
+- [ ] Mastered arithmetic operators
+- [ ] Understood comparison operators
+- [ ] Learned logical operators
+- [ ] Created damage calculator
+- [ ] Implemented experience system
 
 ### Lesson 3: Conditional Statements
-- [ ] Освоил if/else
-- [ ] Понял switch/case
-- [ ] Изучил тернарный оператор
-- [ ] Создал систему диалогов
-- [ ] Реализовал боевую систему с conditionsми
+
+- [ ] Mastered if/else
+- [ ] Understood switch/case
+- [ ] Learned ternary operator
+- [ ] Created dialog system
+- [ ] Implemented combat system with conditions
 
 ### Lesson 4: Loops
-- [ ] Освоил цикл for
-- [ ] Понял while и do-while
-- [ ] Изучил foreach
-- [ ] Создал систему спавна врагов
-- [ ] Реализовал генерацию уровня
 
-### Lesson 5: Коллекции
-- [ ] Освоил массивы
-- [ ] Понял List<T>
-- [ ] Изучил Dictionary<TKey, TValue>
-- [ ] Создал продвинутый инвентарь
-- [ ] Реализовал систему достижений
+- [ ] Mastered for loop
+- [ ] Understood while and do-while
+- [ ] Learned foreach
+- [ ] Created enemy spawn system
+- [ ] Implemented level generation
+
+### Lesson 5: Collections
+
+- [ ] Mastered arrays
+- [ ] Understood List<T>
+- [ ] Learned Dictionary<TKey, TValue>
+- [ ] Created advanced inventory
+- [ ] Implemented achievement system
 
 ### Lesson 6: Methods
-- [ ] Освоил создание методов
-- [ ] Понял параметры и возвращаемые значения
-- [ ] Изучил перегрузку методов
-- [ ] Создал библиотеку игровых функций
-- [ ] Реализовал комплексную боевую систему
 
-**Модуль 1 завершен:** [ ]
+- [ ] Mastered method creation
+- [ ] Understood parameters and return values
+- [ ] Learned method overloading
+- [ ] Created game functions library
+- [ ] Implemented complex combat system
+
+**Module 1 Completed:** [ ]
 
 ---
 
-## Module 2: OOP in C# ⏱️ 3-4 недели
+## Module 2: OOP in C# ⏱️ 3-4 weeks
 
 ### Lesson 1: Classes and Objects
-- [ ] Понял концепцию классов и объектов
-- [ ] Освоил поля и свойства
-- [ ] Изучил конструкторы
-- [ ] Создал класс Player
-- [ ] Создал класс Enemy
-- [ ] Реализовал класс Weapon
+
+- [ ] Understood class and object concepts
+- [ ] Mastered fields and properties
+- [ ] Learned constructors
+- [ ] Created Player class
+- [ ] Created Enemy class
+- [ ] Implemented Weapon class
 
 ### Lesson 2: Inheritance
-- [ ] Понял принцип наследования
-- [ ] Освоил полиморфизм
-- [ ] Изучил virtual и override
-- [ ] Создал иерархию врагов
-- [ ] Создал иерархию оружия
 
-### Lesson 3: Interfaceы
-- [ ] Понял концепцию интерфейсов
-- [ ] Освоил абстрактные classes
-- [ ] Создал IDamageable
-- [ ] Создал IInteractable
-- [ ] Реализовал систему взаимодействий
+- [ ] Understood inheritance principle
+- [ ] Mastered polymorphism
+- [ ] Learned virtual and override
+- [ ] Created enemy hierarchy
+- [ ] Created weapon hierarchy
+
+### Lesson 3: Interfaces
+
+- [ ] Understood interface concepts
+- [ ] Mastered abstract classes
+- [ ] Created IDamageable
+- [ ] Created IInteractable
+- [ ] Implemented interaction system
 
 ### Lesson 4: Design Patterns
-- [ ] Изучил Singleton
-- [ ] Освоил Factory
-- [ ] Понял Observer
-- [ ] Создал GameManager (Singleton)
-- [ ] Реализовал систему событий
 
-**Модуль 2 завершен:** [ ]
+- [ ] Studied Singleton
+- [ ] Mastered Factory
+- [ ] Understood Observer
+- [ ] Created GameManager (Singleton)
+- [ ] Implemented event system
+
+**Module 2 Completed:** [ ]
 
 ---
 
-## Модуль 3: Unity Basics ⏱️ 2 недели
+## Module 3: Unity Basics ⏱️ 2 weeks
 
 ### MonoBehaviour Lifecycle
-- [ ] Понял порядок выполнения методов
-- [ ] Освоил Awake и Start
-- [ ] Изучил Update, FixedUpdate, LateUpdate
-- [ ] Создал первый Unity скрипт
 
-### GameObject и Components
-- [ ] Освоил работу с Transform
-- [ ] Понял GetComponent
-- [ ] Изучил Find и FindObjectOfType
-- [ ] Создал систему поиска объектов
+- [ ] Understood method execution order
+- [ ] Mastered Awake and Start
+- [ ] Learned Update, FixedUpdate, LateUpdate
+- [ ] Created first Unity script
 
-### Prefabs и Instantiate
-- [ ] Понял концепцию префабов
-- [ ] Освоил Instantiate и Destroy
-- [ ] Создал систему спавна
-- [ ] Реализовал Object Pool
+### GameObject and Components
+
+- [ ] Mastered Transform work
+- [ ] Understood GetComponent
+- [ ] Learned Find and FindObjectOfType
+- [ ] Created object search system
+
+### Prefabs and Instantiate
+
+- [ ] Understood prefab concepts
+- [ ] Mastered Instantiate and Destroy
+- [ ] Created spawn system
+- [ ] Implemented Object Pool
 
 ### Coroutines
-- [ ] Понял асинхронные операции
-- [ ] Освоил yield return
-- [ ] Создал таймеры
-- [ ] Реализовал систему задержек
+
+- [ ] Understood async operations
+- [ ] Mastered yield return
+- [ ] Created timers
+- [ ] Implemented delay system
 
 ### ScriptableObjects
-- [ ] Понял концепцию ScriptableObjects
-- [ ] Создал конфигурацию оружия
-- [ ] Создал данные врагов
-- [ ] Реализовал систему данных
+
+- [ ] Understood ScriptableObject concepts
+- [ ] Created weapon configuration
+- [ ] Created enemy data
+- [ ] Implemented data system
 
 ### Input System
-- [ ] Освоил Input.GetKey
-- [ ] Понял Input.GetAxis
-- [ ] Изучил новый Input System
-- [ ] Создал систему управления
 
-**Модуль 3 завершен:** [ ]
+- [ ] Mastered Input.GetKey
+- [ ] Understood Input.GetAxis
+- [ ] Learned new Input System
+- [ ] Created control system
+
+**Module 3 Completed:** [ ]
 
 ---
 
-## Module 4: Game Mechanics ⏱️ 3 недели
+## Module 4: Game Mechanics ⏱️ 3 weeks
 
 ### Movement and Controls
-- [ ] Создал Character Controller (3D)
-- [ ] Реализовал Rigidbody movement (2D)
-- [ ] Добавил прыжки
-- [ ] Реализовал dash
-- [ ] Добавил wall jump
 
-### Система камеры
-- [ ] Создал follow camera
-- [ ] Добавил camera bounds
-- [ ] Реализовал camera shake
-- [ ] Изучил Cinemachine
+- [ ] Created Character Controller (3D)
+- [ ] Implemented Rigidbody movement (2D)
+- [ ] Added jumping
+- [ ] Implemented dash
+- [ ] Added wall jump
 
-### Физика и коллизии
-- [ ] Освоил Colliders
-- [ ] Понял Triggers
-- [ ] Изучил Raycast
-- [ ] Настроил Layers
-- [ ] Создал проверку земли
+### Camera System
 
-### Боевая система
-- [ ] Создал систему здоровья
-- [ ] Реализовал нанесение урона
-- [ ] Добавил систему оружия
-- [ ] Создал стрельбу
-- [ ] Реализовал перезарядку
+- [ ] Created follow camera
+- [ ] Added camera bounds
+- [ ] Implemented camera shake
+- [ ] Learned Cinemachine
 
-### UI и HUD
-- [ ] Создал Canvas
-- [ ] Добавил health bar
-- [ ] Реализовал ammo counter
-- [ ] Создал меню паузы
-- [ ] Добавил систему диалогов
+### Physics and Collisions
 
-### Анимация
-- [ ] Настроил Animator Controller
-- [ ] Создал Animation States
-- [ ] Добавил Transitions
-- [ ] Изучил Blend Trees
-- [ ] Использовал Animation Events
+- [ ] Mastered Colliders
+- [ ] Understood Triggers
+- [ ] Learned Raycast
+- [ ] Configured Layers
+- [ ] Created ground check
 
-**Модуль 4 завершен:** [ ]
+### Combat System
+
+- [ ] Created health system
+- [ ] Implemented damage dealing
+- [ ] Added weapon system
+- [ ] Created shooting
+- [ ] Implemented reload
+
+### UI and HUD
+
+- [ ] Created Canvas
+- [ ] Added health bar
+- [ ] Implemented ammo counter
+- [ ] Created pause menu
+- [ ] Added dialog system
+
+### Animation
+
+- [ ] Configured Animator Controller
+- [ ] Created Animation States
+- [ ] Added Transitions
+- [ ] Learned Blend Trees
+- [ ] Used Animation Events
+
+**Module 4 Completed:** [ ]
 
 ---
 
-## Модуль 5: Продвинутый C# ⏱️ 2 недели
+## Module 5: Advanced C# ⏱️ 2 weeks
 
-### Delegates и Events
-- [ ] Понял делегаты
-- [ ] Освоил Action и Func
-- [ ] Создал систему событий
-- [ ] Реализовал event-driven архитектуру
+### Delegates and Events
 
-### Lambda и LINQ
-- [ ] Изучил lambda выражения
-- [ ] Освоил LINQ запросы
-- [ ] Использовал Where, Select, OrderBy
-- [ ] Применил в игровой логике
+- [ ] Understood delegates
+- [ ] Mastered Action and Func
+- [ ] Created event system
+- [ ] Implemented event-driven architecture
+
+### Lambda and LINQ
+
+- [ ] Learned lambda expressions
+- [ ] Mastered LINQ queries
+- [ ] Used Where, Select, OrderBy
+- [ ] Applied in game logic
 
 ### Generics
-- [ ] Понял обобщения
-- [ ] Создал Generic класс
-- [ ] Реализовал Generic Object Pool
-- [ ] Создал Generic Singleton
+
+- [ ] Understood generics
+- [ ] Created Generic class
+- [ ] Implemented Generic Object Pool
+- [ ] Created Generic Singleton
 
 ### Async/Await
-- [ ] Изучил асинхронное программирование
-- [ ] Освоил Task
-- [ ] Реализовал async загрузку
-- [ ] Создал систему загрузки сцен
 
-**Модуль 5 завершен:** [ ]
+- [ ] Learned async programming
+- [ ] Mastered Task
+- [ ] Implemented async loading
+- [ ] Created scene loading system
 
----
-
-## Модуль 6: Rider для Unity ⏱️ 1 неделя
-
-- [ ] Настроил Rider для Unity
-- [ ] Освоил горячие клавиши
-- [ ] Изучил отладку
-- [ ] Использовал рефакторинг
-- [ ] Настроил code generation
-- [ ] Изучил Unity integration
-
-**Модуль 6 завершен:** [ ]
+**Module 5 Completed:** [ ]
 
 ---
 
-## Модуль 7: Практические Проекты ⏱️ 4 недели
+## Module 6: Rider for Unity ⏱️ 1 week
 
-### Проект 1: Flappy Bird Clone
-- [ ] Создал movement птицы
-- [ ] Реализовал генерацию труб
-- [ ] Добавил систему очков
-- [ ] Создал Game Over экран
-- [ ] Добавил рестарт
+- [ ] Configured Rider for Unity
+- [ ] Mastered keyboard shortcuts
+- [ ] Learned debugging
+- [ ] Used refactoring
+- [ ] Configured code generation
+- [ ] Learned Unity integration
 
-### Проект 2: Top-Down Shooter
-- [ ] Создал movement персонажа
-- [ ] Реализовал стрельбу
-- [ ] Добавил AI врагов
-- [ ] Создал систему волн
-- [ ] Добавил power-ups
-
-### Проект 3: Platformer
-- [ ] Создал продвинутое movement
-- [ ] Добавил wall jump
-- [ ] Реализовал чекпоинты
-- [ ] Создал несколько уровней
-- [ ] Добавил врагов и ловушки
-
-### Проект 4: First-Person Shooter
-- [ ] Создал FPS контроллер
-- [ ] Реализовал систему оружия
-- [ ] Добавил NavMesh AI
-- [ ] Создал уровень
-- [ ] Добавил звуки и эффекты
-
-### Проект 5: RPG Combat System
-- [ ] Создал систему характеристик
-- [ ] Реализовал инвентарь
-- [ ] Добавил боевую систему
-- [ ] Создал систему квестов
-- [ ] Реализовал сохранение
-
-**Модуль 7 завершен:** [ ]
+**Module 6 Completed:** [ ]
 
 ---
 
-## Модуль 8: Debugging и Оптимизация ⏱️ 2 недели
+## Module 7: Practical Projects ⏱️ 4 weeks
+
+### Project 1: Flappy Bird Clone
+
+- [ ] Created bird movement
+- [ ] Implemented pipe generation
+- [ ] Added scoring system
+- [ ] Created Game Over screen
+- [ ] Added restart
+
+### Project 2: Top-Down Shooter
+
+- [ ] Created character movement
+- [ ] Implemented shooting
+- [ ] Added enemy AI
+- [ ] Created wave system
+- [ ] Added power-ups
+
+### Project 3: Platformer
+
+- [ ] Created advanced movement
+- [ ] Added wall jump
+- [ ] Implemented checkpoints
+- [ ] Created multiple levels
+- [ ] Added enemies and traps
+
+### Project 4: First-Person Shooter
+
+- [ ] Created FPS controller
+- [ ] Implemented weapon system
+- [ ] Added NavMesh AI
+- [ ] Created level
+- [ ] Added sounds and effects
+
+### Project 5: RPG Combat System
+
+- [ ] Created stats system
+- [ ] Implemented inventory
+- [ ] Added combat system
+- [ ] Created quest system
+- [ ] Implemented saving
+
+**Module 7 Completed:** [ ]
+
+---
+
+## Module 8: Debugging and Optimization ⏱️ 2 weeks
 
 ### Debugging
-- [ ] Освоил Debug.Log
-- [ ] Изучил breakpoints
-- [ ] Использовал Unity Console
-- [ ] Применил Debug.DrawRay
 
-### Профилирование
-- [ ] Изучил Unity Profiler
-- [ ] Освоил Memory Profiler
-- [ ] Использовал Frame Debugger
-- [ ] Проанализировал производительность
+- [ ] Mastered Debug.Log
+- [ ] Learned breakpoints
+- [ ] Used Unity Console
+- [ ] Applied Debug.DrawRay
 
-### Оптимизация
-- [ ] Реализовал Object Pooling
-- [ ] Оптимизировал Update методы
-- [ ] Кэшировал компоненты
-- [ ] Улучшил производительность
+### Profiling
 
-**Модуль 8 завершен:** [ ]
+- [ ] Learned Unity Profiler
+- [ ] Mastered Memory Profiler
+- [ ] Used Frame Debugger
+- [ ] Analyzed performance
 
----
+### Optimization
 
-## 🎉 Финальный чек-лист
+- [ ] Implemented Object Pooling
+- [ ] Optimized Update methods
+- [ ] Cached components
+- [ ] Improved performance
 
-- [ ] Завершил все 8 модулей
-- [ ] Выполнил все упражнения
-- [ ] Создал все проекты
-- [ ] Понимаю C# Basics
-- [ ] Умею работать с Unity
-- [ ] Могу создавать игровые механики
-- [ ] Знаю как отлаживать и оптимизировать
-- [ ] Готов к созданию собственных игр!
+**Module 8 Completed:** [ ]
 
 ---
 
-**Прогресс:** ___% завершено
+## 🎉 Final Checklist
 
-**Дата начала:** ___________
+- [ ] Completed all 8 modules
+- [ ] Completed all exercises
+- [ ] Created all projects
+- [ ] Understand C# Basics
+- [ ] Can work with Unity
+- [ ] Can create game mechanics
+- [ ] Know how to debug and optimize
+- [ ] Ready to create own games!
 
-**Планируемая дата завершения:** ___________
+---
 
-**Фактическая дата завершения:** ___________
+**Progress:** \_\_\_% completed
 
+**Start Date:** ****\_\_\_****
+
+**Planned Completion Date:** ****\_\_\_****
+
+**Actual Completion Date:** ****\_\_\_****

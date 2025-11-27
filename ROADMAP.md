@@ -1,14 +1,14 @@
-﻿# 🗺️ Дорожная карта обучения
+﻿# 🗺️ Learning Roadmap
 
-## Визуальная карта курса
+## Visual Course Map
 
 ```
-                    🎮 UNITY C# ОБУЧЕНИЕ
+                    🎮 UNITY C# LEARNING
                             │
                             ▼
         ┌───────────────────────────────────────┐
-        │   📚 МОДУЛЬ 1: C# Basics (2-3 недели) │
-        │   ✅ 100% ГОТОВ - НАЧНИТЕ ЗДЕСЬ!      │
+        │   📚 MODULE 1: C# Basics (2-3 weeks)  │
+        │   ✅ 100% READY - START HERE!         │
         └───────────────────────────────────────┘
                             │
         ┌───────────────────┴───────────────────┐
@@ -40,13 +40,13 @@
                             ▼
         ┌───────────────────────────────────────┐
         │   06_Methods.cs                       │
-        │   Functions и параметры                 │
+        │   Functions and parameters            │
         └───────────────────────────────────────┘
                             │
                             ▼
         ┌───────────────────────────────────────┐
-        │   📚 МОДУЛЬ 2: ООП (3-4 недели)       │
-        │   🔄 25% ГОТОВ                        │
+        │   📚 MODULE 2: OOP (3-4 weeks)        │
+        │   🔄 25% READY                        │
         └───────────────────────────────────────┘
                             │
         ┌───────────────────┴───────────────────┐
@@ -59,19 +59,19 @@
                             ▼
         ┌───────────────────────────────────────┐
         │   03_Interfaces.cs 📝                 │
-        │   Interfaceы                          │
+        │   Interfaces                          │
         └───────────────────────────────────────┘
                             │
                             ▼
         ┌───────────────────────────────────────┐
         │   04_Patterns.cs 📝                   │
-        │   Design Patterns             │
+        │   Design Patterns                     │
         └───────────────────────────────────────┘
                             │
                             ▼
         ┌───────────────────────────────────────┐
-        │   📚 МОДУЛЬ 3: UNITY Basics (2 недели)│
-        │   📝 10% ГОТОВ                        │
+        │   📚 MODULE 3: Unity Basics (2 weeks) │
+        │   📝 10% READY                        │
         └───────────────────────────────────────┘
                             │
         ┌───────────────────┴───────────────────┐
@@ -88,26 +88,26 @@
                             │
                             ▼
         ┌───────────────────────────────────────┐
-        │   📚 МОДУЛЬ 4: МЕХАНИКИ (3 недели)    │
-        │   📝 10% ГОТОВ                        │
+        │   📚 MODULE 4: MECHANICS (3 weeks)    │
+        │   📝 10% READY                        │
         └───────────────────────────────────────┘
                             │
         ┌───────────────────┴───────────────────┐
         │                                       │
         ▼                                       ▼
-   Движение                              Камера
-   Физика                                UI/HUD
+   Movement                              Camera
+   Physics                                UI/HUD
         │                                       │
         └───────────────────┬───────────────────┘
                             ▼
         ┌───────────────────────────────────────┐
-        │   Боевая система & Анимация           │
+        │   Combat System & Animation           │
         └───────────────────────────────────────┘
                             │
                             ▼
         ┌───────────────────────────────────────┐
-        │   📚 МОДУЛЬ 5: ПРОДВИНУТЫЙ C# (2 нед) │
-        │   📝 10% ГОТОВ                        │
+        │   📚 MODULE 5: Advanced C# (2 weeks)  │
+        │   📝 10% READY                        │
         └───────────────────────────────────────┘
                             │
         ┌───────────────────┴───────────────────┐
@@ -119,19 +119,19 @@
         └───────────────────┬───────────────────┘
                             ▼
         ┌───────────────────────────────────────┐
-        │   📚 МОДУЛЬ 6: RIDER (1 неделя)       │
-        │   ✅ 100% ГОТОВ                       │
+        │   📚 MODULE 6: Rider (1 week)         │
+        │   ✅ 100% READY                       │
         └───────────────────────────────────────┘
                             │
                             ▼
         ┌───────────────────────────────────────┐
-        │   Debugging, Рефакторинг, Shortcuts     │
+        │   Debugging, Refactoring, Shortcuts   │
         └───────────────────────────────────────┘
                             │
                             ▼
         ┌───────────────────────────────────────┐
-        │   📚 МОДУЛЬ 7: ПРОЕКТЫ (4 недели)     │
-        │   📝 10% ГОТОВ                        │
+        │   📚 MODULE 7: PROJECTS (4 weeks)     │
+        │   📝 10% READY                        │
         └───────────────────────────────────────┘
                             │
         ┌───────────────────┴───────────────────┐
@@ -148,8 +148,8 @@
                             │
                             ▼
         ┌───────────────────────────────────────┐
-        │   📚 МОДУЛЬ 8: ОТЛАДКА (2 недели)     │
-        │   ✅ 100% ГОТОВ                       │
+        │   📚 MODULE 8: DEBUGGING (2 weeks)    │
+        │   ✅ 100% READY                       │
         └───────────────────────────────────────┘
                             │
                             ▼
@@ -158,43 +158,43 @@
         └───────────────────────────────────────┘
                             │
                             ▼
-                    🎉 ЗАВЕРШЕНИЕ КУРСА!
+                    🎉 COURSE COMPLETION!
                             │
                             ▼
-                  🎮 СОЗДАВАЙТЕ СВОИ Games!
+                  🎮 CREATE YOUR OWN GAMES!
 ```
 
-## Временная шкала
+## Timeline
 
 ```
-Месяц 1          Месяц 2          Месяц 3          Месяц 4          Месяц 5
+Month 1          Month 2          Month 3          Month 4          Month 5
 │                │                │                │                │
-├─ Модуль 1 ─────┤                │                │                │
+├─ Module 1 ─────┤                │                │                │
 │  C# Basics     │                │                │                │
-│                ├─ Модуль 2 ─────┤                │                │
-│                │  ООП           │                │                │
-│                │                ├─ Модуль 3 ─────┤                │
+│                ├─ Module 2 ─────┤                │                │
+│                │  OOP           │                │                │
+│                │                ├─ Module 3 ─────┤                │
 │                │                │  Unity         │                │
-│                │                │                ├─ Модуль 4 ─────┤
-│                │                │                │  Механики      │
-│                │                │                │                ├─ Модуль 5 ─┤
-│                │                │                │                │  Продвинутый│
+│                │                │                ├─ Module 4 ─────┤
+│                │                │                │  Mechanics     │
+│                │                │                │                ├─ Module 5 ─┤
+│                │                │                │                │  Advanced  │
 │                │                │                │                │             │
-│                │                │                │                ├─ Модуль 6 ─┤
+│                │                │                │                ├─ Module 6 ─┤
 │                │                │                │                │  Rider      │
 │                │                │                │                │             │
-│                │                │                │                ├─ Модуль 7 ─────────┤
-│                │                │                │                │  Проекты            │
+│                │                │                │                ├─ Module 7 ─────────┤
+│                │                │                │                │  Projects           │
 │                │                │                │                │                     │
-│                │                │                │                ├─ Модуль 8 ─────────┤
+│                │                │                │                ├─ Module 8 ─────────┤
 │                │                │                │                │  Debugging            │
 └────────────────┴────────────────┴────────────────┴────────────────┴─────────────────────┘
 ```
 
-## Путь по сложности
+## Difficulty Path
 
 ```
-Сложность
+Difficulty
     ▲
     │                                              ⭐⭐⭐⭐
     │                                            ┌────────┐
@@ -202,163 +202,176 @@
     │                                    ⭐⭐⭐   │ System │
     │                              ┌──────────┐  └────────┘
     │                              │Platformer│  ┌────────┐
-    │                              │   FPS    │  │ Модуль │
+    │                              │   FPS    │  │ Module │
     │                      ⭐⭐     └──────────┘  │   8    │
     │                ┌──────────┐  ┌────────┐   └────────┘
-    │                │ Shooter  │  │ Модуль │
+    │                │ Shooter  │  │ Module │
     │        ⭐       └──────────┘  │   5    │
     │   ┌──────────┐ ┌────────┐   └────────┘
-    │   │  Flappy  │ │ Модуль │   ┌────────┐
-    │   │   Bird   │ │   4    │   │ Модуль │
+    │   │  Flappy  │ │ Module │   ┌────────┐
+    │   │   Bird   │ │   4    │   │ Module │
     │   └──────────┘ └────────┘   │   7    │
     │   ┌────────┐  ┌────────┐    └────────┘
-    │   │ Модуль │  │ Модуль │
+    │   │ Module │  │ Module │
     │   │   1    │  │   2    │
     │   └────────┘  └────────┘
     │   ┌────────┐  ┌────────┐
-    │   │ Модуль │  │ Модуль │
+    │   │ Module │  │ Module │
     │   │   3    │  │   6    │
     │   └────────┘  └────────┘
     └────────────────────────────────────────────────────────────► Time
 ```
 
-## Навыки по модулям
+## Skills by Module
 
-### Модуль 1: C# Basics ✅
-```
-Навыки:
-├─ Variables и типы данных      [████████████████████] 100%
-├─ Operators                     [████████████████████] 100%
-├─ Conditional Statements          [████████████████████] 100%
-├─ Loops                         [████████████████████] 100%
-├─ Коллекции                     [████████████████████] 100%
-└─ Methods                        [████████████████████] 100%
-```
-
-### Модуль 2: ООП 🔄
-```
-Навыки:
-├─ Classes and Objects              [████████████████████] 100%
-├─ Inheritance                  [░░░░░░░░░░░░░░░░░░░░]   0%
-├─ Interfaceы                    [░░░░░░░░░░░░░░░░░░░░]   0%
-└─ Паттерны                      [░░░░░░░░░░░░░░░░░░░░]   0%
-```
-
-### Модуль 3-8: В разработке 📝
-```
-Навыки:
-└─ Structure готова              [████░░░░░░░░░░░░░░░░]  20%
-```
-
-## Рекомендуемые пути
-
-### 🚀 Быстрый путь (3 months, интенсивно)
-```
-Неделя 1-2:   Модуль 1 (ускоренно)
-Неделя 3-4:   Модуль 2 (ускоренно)
-Неделя 5-6:   Модуль 3 + 4 (Basics)
-Неделя 7-8:   Модуль 5 (выборочно)
-Неделя 9-12:  Модуль 7 (2-3 проекта)
-```
-
-### 🎯 Стандартный путь (5 месяцев)
-```
-Неделя 1-3:   Модуль 1 (полностью)
-Неделя 4-7:   Модуль 2 (полностью)
-Неделя 8-9:   Модуль 3 (полностью)
-Неделя 10-12: Модуль 4 (полностью)
-Неделя 13-14: Модуль 5 (полностью)
-Неделя 15:    Модуль 6 (полностью)
-Неделя 16-19: Модуль 7 (все проекты)
-Неделя 20-21: Модуль 8 (полностью)
-```
-
-### 🐢 Комфортный путь (6-8 месяцев)
-```
-Месяц 1:      Модуль 1 (с практикой)
-Месяц 2:      Модуль 2 (с практикой)
-Месяц 3:      Модуль 3 (с практикой)
-Месяц 4:      Модуль 4 (с практикой)
-Месяц 5:      Модуль 5 + 6
-Месяц 6-7:    Модуль 7 (все проекты)
-Месяц 8:      Модуль 8 + свой проект
-```
-
-## Контрольные точки
-
-### ✅ Контрольная точка 1: После Модуля 1
-**Вы должны уметь:**
-- Создавать Variables всех типов
-- Использовать operators
-- Писать conditions и loops
-- Работать с коллекциями
-- Создавать методы
-
-**Test:** Создайте простую консольную игру "Угадай число"
-
-### ✅ Контрольная точка 2: После Модуля 2
-**Вы должны уметь:**
-- Создавать classes
-- Использовать inheritance
-- Работать с интерфейсами
-- Применять patterns
-
-**Test:** Создайте систему персонажей с inheritanceм
-
-### ✅ Контрольная точка 3: После Модуля 4
-**Вы должны уметь:**
-- Работать с Unity
-- Создавать игровые механики
-- Использовать физику
-- Создавать UI
-
-**Test:** Создайте простую игру с movementм и стрельcombat
-
-### ✅ Контрольная точка 4: После Модуля 7
-**Вы должны уметь:**
-- Создавать полноценные Games
-- Применять все изученное
-- Оптимизировать код
-- Отлаживать Problems
-
-**Test:** Создайте свою уникальную игру
-
-## Следующие шаги после курса
+### Module 1: C# Basics ✅
 
 ```
-                    🎓 КУРС ЗАВЕРШЕН
+Skills:
+├─ Variables and Data Types         [████████████████████] 100%
+├─ Operators                         [████████████████████] 100%
+├─ Conditional Statements            [████████████████████] 100%
+├─ Loops                             [████████████████████] 100%
+├─ Collections                       [████████████████████] 100%
+└─ Methods                           [████████████████████] 100%
+```
+
+### Module 2: OOP 🔄
+
+```
+Skills:
+├─ Classes and Objects               [████████████████████] 100%
+├─ Inheritance                       [░░░░░░░░░░░░░░░░░░░░]   0%
+├─ Interfaces                        [░░░░░░░░░░░░░░░░░░░░]   0%
+└─ Patterns                          [░░░░░░░░░░░░░░░░░░░░]   0%
+```
+
+### Modules 3-8: In Development 📝
+
+```
+Skills:
+└─ Structure Ready                   [████░░░░░░░░░░░░░░░░]  20%
+```
+
+## Recommended Learning Paths
+
+### 🚀 Fast Track (3 months, intensive)
+
+```
+Week 1-2:   Module 1 (accelerated)
+Week 3-4:   Module 2 (accelerated)
+Week 5-6:   Module 3 + 4 (Basics)
+Week 7-8:   Module 5 (selective)
+Week 9-12:  Module 7 (2-3 projects)
+```
+
+### 🎯 Standard Path (5 months)
+
+```
+Week 1-3:   Module 1 (complete)
+Week 4-7:   Module 2 (complete)
+Week 8-9:   Module 3 (complete)
+Week 10-12: Module 4 (complete)
+Week 13-14: Module 5 (complete)
+Week 15:    Module 6 (complete)
+Week 16-19: Module 7 (all projects)
+Week 20-21: Module 8 (complete)
+```
+
+### 🐢 Comfortable Path (6-8 months)
+
+```
+Month 1:    Module 1 (with practice)
+Month 2:    Module 2 (with practice)
+Month 3:    Module 3 (with practice)
+Month 4:    Module 4 (with practice)
+Month 5:    Module 5 + 6
+Month 6-7:  Module 7 (all projects)
+Month 8:    Module 8 + own project
+```
+
+## Checkpoints
+
+### ✅ Checkpoint 1: After Module 1
+
+**You should be able to:**
+
+- Create Variables of all types
+- Use operators
+- Write conditions and loops
+- Work with collections
+- Create methods
+
+**Test:** Create a simple console game "Guess the number"
+
+### ✅ Checkpoint 2: After Module 2
+
+**You should be able to:**
+
+- Create classes
+- Use inheritance
+- Work with interfaces
+- Apply patterns
+
+**Test:** Create a character system with inheritance
+
+### ✅ Checkpoint 3: After Module 4
+
+**You should be able to:**
+
+- Work with Unity
+- Create game mechanics
+- Use physics
+- Create UI
+
+**Test:** Create a simple game with movement and combat
+
+### ✅ Checkpoint 4: After Module 7
+
+**You should be able to:**
+
+- Create full Games
+- Apply everything learned
+- Optimize code
+- Debug problems
+
+**Test:** Create your own unique game
+
+## Next Steps After Course
+
+```
+                    🎓 COURSE COMPLETED
                             │
         ┌───────────────────┴───────────────────┐
         │                                       │
         ▼                                       ▼
-   🎮 Создайте                          📚 Углубите
-   свою игру                            знания
+   🎮 Create                            📚 Deepen
+   your game                            knowledge
         │                                       │
-        ├─ Опубликуйте на itch.io              ├─ Шейдеры
-        ├─ Соберите портфолио                  ├─ Networking
-        └─ Участвуйте в Game Jams              ├─ AI/ML
+        ├─ Publish on itch.io                  ├─ Shaders
+        ├─ Build portfolio                     ├─ Networking
+        └─ Participate in Game Jams            ├─ AI/ML
                                                 └─ VR/AR
                             │
                             ▼
-                    💼 КАРЬЕРА В GAMEDEV
+                    💼 CAREER IN GAMEDEV
                             │
         ┌───────────────────┴───────────────────┐
         │                                       │
         ▼                                       ▼
-   Работа в студии                      Инди разработка
-   Junior Unity Dev                     Свои проекты
+   Work in Studio                       Indie Development
+   Junior Unity Dev                     Your own projects
 ```
 
-## Полезные ссылки
+## Useful Links
 
-- 📖 [Начать обучение](QUICKSTART.md)
-- 📚 [Полное содержание](TABLE_OF_CONTENTS.md)
-- ✅ [Чек-лист прогресса](PROGRESS_CHECKLIST.md)
-- 📊 [Status проекта](STATUS.md)
+- 📖 [Start Learning](QUICKSTART.md)
+- 📚 [Full Contents](TABLE_OF_CONTENTS.md)
+- ✅ [Progress Checklist](PROGRESS_CHECKLIST.md)
+- 📊 [Project Status](STATUS.md)
 
 ---
 
-**Начните свой путь прямо сейчас! → [QUICKSTART.md](QUICKSTART.md)**
+**Start your journey right now! → [QUICKSTART.md](QUICKSTART.md)**
 
-🎮 Удачи в обучении! ✨
-
+🎮 Good luck with learning! ✨

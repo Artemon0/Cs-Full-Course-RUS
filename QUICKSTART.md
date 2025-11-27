@@ -1,103 +1,112 @@
-﻿# ⚡ Быстрый старт
+﻿# ⚡ Quick Start
 
-Хотите начать прямо сейчас? Следуйте этим шагам!
+Want to start right now? Follow these steps!
 
-## 5 минут до первого урока
+## 5 Minutes to Your First Lesson
 
-### Шаг 1: Установите Rider или Visual Studio (если еще нет)
+### Step 1: Install Rider or Visual Studio (if not already done)
 
-**Rider (рекомендуется):**
-- Скачайте: https://www.jetbrains.com/rider/
-- Бесплатно для студентов
+**Rider (recommended):**
 
-**Visual Studio Community (бесплатно):**
-- Скачайте: https://visualstudio.microsoft.com/
+- Download: https://www.jetbrains.com/rider/
+- Free for students
 
-### Шаг 2: Откройте проект
+**Visual Studio Community (free):**
 
-1. Откройте Rider/Visual Studio
-2. File → Open → выберите папку `MyLearn`
-3. Дождитесь загрузки проекта
+- Download: https://visualstudio.microsoft.com/
 
-### Шаг 3: Запустите первый пример
+### Step 2: Open the Project
 
-1. Откройте `MyLearn/Module01_CSharpBasics/01_Variables.cs`
-2. Нажмите F5 (или кнопку Run)
-3. Смотрите результат в консоли!
+1. Open Rider/Visual Studio
+2. File → Open → select the `MyLearn` folder
+3. Wait for the project to load
 
-### Шаг 4: Экспериментируйте
+### Step 3: Run Your First Example
 
-Измените код:
+1. Open `MyLearn/Module01_CSharpBasics/01_Variables.cs`
+2. Press F5 (or click Run)
+3. See the result in the console!
+
+### Step 4: Experiment
+
+Change the code:
+
 ```csharp
-int playerHealth = 100;  // Измените на 50
+int playerHealth = 100;  // Change to 50
 ```
 
-Запустите снова (F5) и посмотрите, что изменилось!
+Run again (F5) and see what changed!
 
-### Шаг 5: Выполните упражнения
+### Step 5: Complete Exercises
 
-В конце каждого файла есть упражнения. Попробуйте их выполнить!
+Each file has exercises at the end. Try to complete them!
 
 ---
 
-## Что дальше?
+## What's Next?
 
-### День 1-2: Basics
+### Day 1-2: Basics
+
 - ✅ 01_Variables.cs
 - ✅ 02_Operators.cs
 
-### День 3-4: Логика
+### Day 3-4: Logic
+
 - ✅ 03_Conditionals.cs
 - ✅ 04_Loops.cs
 
-### День 5-7: Структуры данных
+### Day 5-7: Data Structures
+
 - ✅ 05_Collections.cs
 - ✅ 06_Methods.cs
 
-### Неделя 2: ООП
-- Переходите к Модулю 2
+### Week 2: OOP
+
+- Move to Module 2
 
 ---
 
-## Нужна помощь?
+## Need Help?
 
-- 📖 [Полное руководство](GETTING_STARTED.md)
+- 📖 [Full Guide](GETTING_STARTED.md)
 - ❓ [FAQ](FAQ.md)
-- 📝 [Шпаргалка](CHEATSHEET.md)
+- 📝 [Cheatsheet](CHEATSHEET.md)
 
 ---
 
-## Советы для быстрого старта
+## Tips for Quick Start
 
-### ✅ Делайте
+### ✅ Do
 
-1. **Запускайте код** - не просто читайте
-2. **Меняйте значения** - экспериментируйте
-3. **Делайте заметки** - записывайте важное
-4. **Делайте упражнения** - практика важна
+1. **Run the code** - don't just read
+2. **Change values** - experiment
+3. **Take notes** - write down important things
+4. **Do exercises** - practice is key
 
-### ❌ Не делайте
+### ❌ Don't
 
-1. Не копируйте код бездумно
-2. Не пропускайте упражнения
-3. Не спешите к следующему уроку
-4. Не combatтесь ошибок
+1. Don't copy code mindlessly
+2. Don't skip exercises
+3. Don't rush to the next lesson
+4. Don't avoid errors
 
 ---
 
-## Горячие клавиши
+## Keyboard Shortcuts
 
 ### Rider
-- `F5` - Запустить программу
-- `Ctrl + Space` - Автодополнение
-- `Ctrl + /` - Комментарий
-- `Ctrl + D` - Дублировать linesу
+
+- `F5` - Run program
+- `Ctrl + Space` - Autocomplete
+- `Ctrl + /` - Comment
+- `Ctrl + D` - Duplicate line
 
 ### Visual Studio
-- `F5` - Запустить программу
-- `Ctrl + Space` - Автодополнение
-- `Ctrl + K, C` - Комментарий
-- `Ctrl + D` - Дублировать linesу
+
+- `F5` - Run program
+- `Ctrl + Space` - Autocomplete
+- `Ctrl + K, C` - Comment
+- `Ctrl + D` - Duplicate line
 
 ---
 
@@ -167,5 +176,4 @@ Console.WriteLine($"После заклинания Мана: {heroMana}");
 
 **Поздравляем с началом обучения! 🎉**
 
-*Помните: каждый эксперт когда-то был новичком. Главное - начать!*
-
+_Помните: каждый эксперт когда-то был новичком. Главное - начать!_
