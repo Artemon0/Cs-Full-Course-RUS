@@ -1,8 +1,8 @@
-# 📝 Шпаргалка C# для Unity
+﻿# 📝 Шпаргалка C# для Unity
 
 ## Базовый синтаксис
 
-### Переменные
+### Variables
 ```csharp
 int health = 100;              // Целое число
 float speed = 5.5f;            // Число с плавающей точкой
@@ -10,7 +10,7 @@ string playerName = "Hero";    // Текст
 bool isAlive = true;           // true или false
 ```
 
-### Операторы
+### Operators
 ```csharp
 // Арифметические
 int sum = 5 + 3;        // 8
@@ -31,7 +31,7 @@ bool or = true || false;    // true
 bool not = !true;           // false
 ```
 
-### Условия
+### Conditions
 ```csharp
 if (health > 50)
 {
@@ -64,7 +64,7 @@ switch (weaponType)
 string status = health > 50 ? "Здоров" : "Ранен";
 ```
 
-### Циклы
+### Loops
 ```csharp
 // For
 for (int i = 0; i < 10; i++)
@@ -87,7 +87,7 @@ foreach (string item in inventory)
 
 ## Коллекции
 
-### Массивы
+### Arrays
 ```csharp
 int[] scores = new int[5];
 scores[0] = 100;
@@ -111,7 +111,7 @@ stats["Health"] = 80;
 int health = stats["Health"];
 ```
 
-## Методы
+## Methods
 
 ```csharp
 // Без возврата
@@ -131,12 +131,12 @@ PrintMessage("Hello");
 int damage = CalculateDamage(20, 10);
 ```
 
-## Классы
+## Classes
 
 ```csharp
 public class Player
 {
-    // Поля
+    // Fields
     public string name;
     private int health;
     
@@ -147,14 +147,14 @@ public class Player
         set { health = value; }
     }
     
-    // Конструктор
+    // Constructor
     public Player(string playerName)
     {
         name = playerName;
         health = 100;
     }
     
-    // Методы
+    // Methods
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -189,12 +189,12 @@ public class PlayerController : MonoBehaviour
     
     void FixedUpdate()
     {
-        // Фиксированный интервал (физика)
+        // Фиксированный интервал (physics)
     }
     
     void LateUpdate()
     {
-        // После всех Update (камера)
+        // После всех Update (camera)
     }
 }
 ```
@@ -408,11 +408,11 @@ Vector3 direction = (target - transform.position).normalized;
 // Mathf
 int max = Mathf.Max(5, 10);                 // 10
 int min = Mathf.Min(5, 10);                 // 5
-float clamp = Mathf.Clamp(value, 0, 100);   // Ограничение
+float clamp = Mathf.Clamp(value, 0, 100);   // Constraint
 float lerp = Mathf.Lerp(a, b, t);           // Интерполяция
 ```
 
-## Частые паттерны
+## Частые patterns
 
 ### Singleton
 ```csharp
@@ -460,3 +460,4 @@ void Return(GameObject obj)
 ---
 
 **Совет:** Держите эту шпаргалку под рукой во время разработки!
+

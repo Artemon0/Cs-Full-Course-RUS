@@ -1,6 +1,6 @@
-# 📑 Содержание курса
+﻿# 📑 Содержание курса
 
-## 📄 Документация
+## 📄 Documentation
 
 ### Начало работы
 - [README.md](README.md) - Главная страница курса
@@ -20,41 +20,41 @@
 
 ---
 
-## 📚 Модуль 1: Основы C# (2-3 недели)
+## 📚 Модуль 1: C# Basics (2-3 недели)
 
-### Уроки
-1. [01_Variables.cs](MyLearn/Module01_CSharpBasics/01_Variables.cs) - Переменные и типы данных
+### Lessonи
+1. [01_Variables.cs](MyLearn/Module01_CSharpBasics/01_Variables.cs) - Variables и типы данных
    - int, float, string, bool
    - Константы
    - var и автоопределение типа
    - Игровой пример: система здоровья
 
-2. [02_Operators.cs](MyLearn/Module01_CSharpBasics/02_Operators.cs) - Операторы
-   - Арифметические операторы
-   - Операторы сравнения
-   - Логические операторы
+2. [02_Operators.cs](MyLearn/Module01_CSharpBasics/02_Operators.cs) - Operators
+   - Арифметические operators
+   - Operators сравнения
+   - Логические operators
    - Игровой пример: калькулятор урона
 
-3. [03_Conditionals.cs](MyLearn/Module01_CSharpBasics/03_Conditionals.cs) - Условные конструкции
+3. [03_Conditionals.cs](MyLearn/Module01_CSharpBasics/03_Conditionals.cs) - Conditional Statements
    - if/else
    - switch/case
    - Тернарный оператор
    - Игровой пример: система диалогов
 
-4. [04_Loops.cs](MyLearn/Module01_CSharpBasics/04_Loops.cs) - Циклы
+4. [04_Loops.cs](MyLearn/Module01_CSharpBasics/04_Loops.cs) - Loops
    - for, while, do-while
    - foreach
    - break и continue
    - Игровой пример: система спавна врагов
 
 5. [05_Collections.cs](MyLearn/Module01_CSharpBasics/05_Collections.cs) - Коллекции
-   - Массивы
+   - Arrays
    - List<T>
    - Dictionary<TKey, TValue>
    - Queue и Stack
    - Игровой пример: продвинутый инвентарь
 
-6. [06_Methods.cs](MyLearn/Module01_CSharpBasics/06_Methods.cs) - Методы
+6. [06_Methods.cs](MyLearn/Module01_CSharpBasics/06_Methods.cs) - Methods
    - Создание методов
    - Параметры и возвращаемые значения
    - Перегрузка методов
@@ -67,27 +67,27 @@
 
 ---
 
-## 📚 Модуль 2: ООП в C# (3-4 недели) ✅ ГОТОВ
+## 📚 Module 2: OOP in C# (3-4 недели) ✅ ГОТОВ
 
-### Уроки
-1. [01_Classes.cs](MyLearn/Module02_OOP/01_Classes.cs) - Классы и объекты ✅
-   - Поля и свойства
-   - Конструкторы
-   - Методы класса
+### Lessonи
+1. [01_Classes.cs](MyLearn/Module02_OOP/01_Classes.cs) - Classes and Objects ✅
+   - Fields и свойства
+   - Constructorы
+   - Methods класса
    - Статические члены
    - Игровой пример: система персонажей
 
-2. [02_Inheritance.cs](MyLearn/Module02_OOP/02_Inheritance.cs) - Наследование ✅
-   - Базовые и производные классы
+2. [02_Inheritance.cs](MyLearn/Module02_OOP/02_Inheritance.cs) - Inheritance ✅
+   - Базовые и производные classes
    - virtual и override
    - base keyword
-   - Полиморфизм
+   - Polymorphism
    - Игровой пример: иерархия врагов и оружия
 
-3. [03_Interfaces.cs](MyLearn/Module02_OOP/03_Interfaces.cs) - Интерфейсы ✅
+3. [03_Interfaces.cs](MyLearn/Module02_OOP/03_Interfaces.cs) - Interfaceы ✅
    - Создание интерфейсов
-   - Реализация интерфейсов
-   - Абстрактные классы
+   - Implementation интерфейсов
+   - Абстрактные classes
    - Множественная реализация
    - Игровой пример: IDamageable, IInteractable, ICollectable
 
@@ -106,7 +106,7 @@
 
 ---
 
-## 📚 Модуль 3: Unity Основы (2 недели)
+## 📚 Модуль 3: Unity Basics (2 недели)
 
 ### Темы
 - MonoBehaviour Lifecycle
@@ -123,10 +123,10 @@
 
 ---
 
-## 📚 Модуль 4: Игровые Механики (3 недели)
+## 📚 Module 4: Game Mechanics (3 недели)
 
 ### Темы
-- Движение и управление
+- Movement and Controls
 - Система камеры
 - Физика и коллизии
 - Боевая система
@@ -161,7 +161,7 @@
 
 ### Темы
 - Настройка Rider
-- Отладка
+- Debugging
 - Горячие клавиши
 - Рефакторинг
 - Code Generation
@@ -191,7 +191,7 @@
 - Система волн
 
 #### Проект 3: Platformer (2D) ⭐⭐⭐
-- Продвинутое движение
+- Продвинутое movement
 - Wall jump
 - Чекпоинты
 - Несколько уровней
@@ -215,15 +215,15 @@
 
 ---
 
-## 📚 Модуль 8: Отладка и Оптимизация (2 недели)
+## 📚 Модуль 8: Debugging и Оптимизация (2 недели)
 
 ### Темы
-- Отладка и логирование
+- Debugging и логирование
 - Unity Profiler
 - Memory Profiler
 - Оптимизация кода
 - Object Pooling
-- Распространенные ошибки
+- Распространенные Errors
 
 ### Навигация
 - [README модуля](MyLearn/Module08_Debugging/README.md)
@@ -238,7 +238,7 @@
   ↓
 📖 QUICKSTART.md (5 минут)
   ↓
-📚 Модуль 1: Основы C# (2-3 недели)
+📚 Модуль 1: C# Basics (2-3 недели)
   ├─ 01_Variables.cs
   ├─ 02_Operators.cs
   ├─ 03_Conditionals.cs
@@ -252,9 +252,9 @@
   ├─ 03_Interfaces.cs
   └─ 04_Patterns.cs
   ↓
-📚 Модуль 3: Unity Основы (2 недели)
+📚 Модуль 3: Unity Basics (2 недели)
   ↓
-📚 Модуль 4: Игровые Механики (3 недели)
+📚 Module 4: Game Mechanics (3 недели)
   ↓
 📚 Модуль 5: Продвинутый C# (2 недели)
   ↓
@@ -267,7 +267,7 @@
   ├─ FPS
   └─ RPG System
   ↓
-📚 Модуль 8: Отладка (2 недели)
+📚 Модуль 8: Debugging (2 недели)
   ↓
 🎉 Завершение курса!
 ```
@@ -278,7 +278,7 @@
 
 - **Всего модулей:** 8
 - **Всего уроков:** 30+
-- **Время обучения:** 4-5 месяцев
+- **Time обучения:** 4-5 месяцев
 - **Часов в неделю:** 10-15
 - **Проектов:** 5
 - **Упражнений:** 50+
@@ -290,19 +290,19 @@
 ### По темам
 
 **Базовый синтаксис:**
-- Переменные → [01_Variables.cs](MyLearn/Module01_CSharpBasics/01_Variables.cs)
-- Операторы → [02_Operators.cs](MyLearn/Module01_CSharpBasics/02_Operators.cs)
-- Условия → [03_Conditionals.cs](MyLearn/Module01_CSharpBasics/03_Conditionals.cs)
-- Циклы → [04_Loops.cs](MyLearn/Module01_CSharpBasics/04_Loops.cs)
+- Variables → [01_Variables.cs](MyLearn/Module01_CSharpBasics/01_Variables.cs)
+- Operators → [02_Operators.cs](MyLearn/Module01_CSharpBasics/02_Operators.cs)
+- Conditions → [03_Conditionals.cs](MyLearn/Module01_CSharpBasics/03_Conditionals.cs)
+- Loops → [04_Loops.cs](MyLearn/Module01_CSharpBasics/04_Loops.cs)
 
 **Структуры данных:**
 - Коллекции → [05_Collections.cs](MyLearn/Module01_CSharpBasics/05_Collections.cs)
-- Методы → [06_Methods.cs](MyLearn/Module01_CSharpBasics/06_Methods.cs)
+- Methods → [06_Methods.cs](MyLearn/Module01_CSharpBasics/06_Methods.cs)
 
 **ООП:**
-- Классы → [01_Classes.cs](MyLearn/Module02_OOP/01_Classes.cs)
-- Наследование → Модуль 2
-- Интерфейсы → Модуль 2
+- Classes → [01_Classes.cs](MyLearn/Module02_OOP/01_Classes.cs)
+- Inheritance → Модуль 2
+- Interfaceы → Модуль 2
 - Паттерны → Модуль 2
 
 **Unity:**
@@ -313,7 +313,7 @@
 **Продвинутое:**
 - Events/LINQ → [Модуль 5](MyLearn/Module05_AdvancedCSharp/README.md)
 - Rider → [Модуль 6](MyLearn/Module06_RiderTips/README.md)
-- Отладка → [Модуль 8](MyLearn/Module08_Debugging/README.md)
+- Debugging → [Модуль 8](MyLearn/Module08_Debugging/README.md)
 
 ### По игровым системам
 
@@ -337,3 +337,4 @@
 ---
 
 **Удачи в обучении! 🚀**
+

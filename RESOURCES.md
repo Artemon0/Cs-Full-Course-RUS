@@ -1,10 +1,10 @@
-# 📚 Дополнительные ресурсы
+﻿# 📚 Дополнительные ресурсы
 
 ## 🎓 Обучающие платформы
 
 ### Официальные ресурсы Unity
 - [Unity Learn](https://learn.unity.com/) - бесплатные официальные курсы
-- [Unity Documentation](https://docs.unity3d.com/) - полная документация
+- [Unity Documentation](https://docs.unity3d.com/) - полная Documentation
 - [Unity Manual](https://docs.unity3d.com/Manual/index.html) - руководство пользователя
 - [Unity Scripting API](https://docs.unity3d.com/ScriptReference/) - справочник по API
 
@@ -134,7 +134,7 @@
 ## 🎮 Публикация игр
 
 ### Платформы
-- [Steam](https://partner.steamgames.com/) - PC игры
+- [Steam](https://partner.steamgames.com/) - PC Games
 - [itch.io](https://itch.io/) - инди платформа
 - [Google Play](https://play.google.com/console) - Android
 - [App Store](https://developer.apple.com/) - iOS
@@ -149,7 +149,7 @@
 
 ## 💼 Карьера
 
-### Поиск работы
+### Search работы
 - [Unity Connect](https://connect.unity.com/) - Unity вакансии
 - [LinkedIn](https://www.linkedin.com/) - профессиональная сеть
 - [Indeed](https://www.indeed.com/) - поиск работы
@@ -175,7 +175,7 @@
 - [Xcode](https://developer.apple.com/xcode/) - разработка для iOS
 - [App Store Connect](https://appstoreconnect.apple.com/) - публикация
 
-## 🔧 Продвинутые темы
+## 🔧 Advanced Topics
 
 ### Шейдеры
 - [Shader Graph](https://unity.com/features/shader-graph) - визуальные шейдеры
@@ -184,8 +184,8 @@
 
 ### Networking
 - [Mirror Networking](https://mirror-networking.com/) - мультиплеер
-- [Photon](https://www.photonengine.com/) - мультиплеер решение
-- [Unity Netcode](https://docs-multiplayer.unity3d.com/) - официальное решение
+- [Photon](https://www.photonengine.com/) - мультиплеер Solution
+- [Unity Netcode](https://docs-multiplayer.unity3d.com/) - официальное Solution
 
 ### AI и Machine Learning
 - [ML-Agents](https://unity.com/products/machine-learning-agents) - машинное обучение
@@ -194,3 +194,4 @@
 ---
 
 **Совет:** Не пытайтесь изучить все сразу. Сосредоточьтесь на основах, затем углубляйтесь в интересующие вас области.
+

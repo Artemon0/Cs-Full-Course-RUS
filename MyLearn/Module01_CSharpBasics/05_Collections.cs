@@ -4,10 +4,10 @@ using System.Collections.Generic;
 namespace MyLearn.Module01_CSharpBasics
 {
     /// <summary>
-    /// Урок 5: Массивы и коллекции
+    /// Lesson 5: Arrays and Collections
     /// 
     /// В этом уроке вы изучите:
-    /// - Массивы (arrays)
+    /// - Arrays (arrays)
     /// - Списки (List<T>)
     /// - Словари (Dictionary<TKey, TValue>)
     /// - Очереди и стеки (Queue, Stack)
@@ -18,13 +18,13 @@ namespace MyLearn.Module01_CSharpBasics
         // Для запуска этого урока раскомментируйте Main и закомментируйте Main в других файлах
         public static void RunDemo()
         {
-            Console.WriteLine("=== Урок 5: Массивы и коллекции ===\n");
+            Console.WriteLine("=== Lesson 5: Arrays and Collections ===\n");
 
             // ========================================
             // 1. МАССИВЫ (ARRAYS)
             // ========================================
 
-            Console.WriteLine("--- Массивы ---");
+            Console.WriteLine("--- Arrays ---");
 
             // Объявление и инициализация массива
             int[] scores = new int[5];  // Массив из 5 элементов
@@ -37,7 +37,7 @@ namespace MyLearn.Module01_CSharpBasics
             Console.WriteLine("Очки за уровни:");
             for (int i = 0; i < scores.Length; i++)
             {
-                Console.WriteLine($"Уровень {i + 1}: {scores[i]} очков");
+                Console.WriteLine($"Level {i + 1}: {scores[i]} очков");
             }
 
             // Инициализация при объявлении
@@ -52,7 +52,7 @@ namespace MyLearn.Module01_CSharpBasics
                 { 0, 0, 2 }
             };
 
-            Console.WriteLine("\nКарта уровня:");
+            Console.WriteLine("\nMap уровня:");
             for (int row = 0; row < 3; row++)
             {
                 for (int col = 0; col < 3; col++)
@@ -207,7 +207,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 5. СТЕКИ (STACK<T>)
             // ========================================
 
-            Console.WriteLine("--- Стеки (Stack) ---");
+            Console.WriteLine("--- Stackи (Stack) ---");
 
             // Stack - последний вошел, первый вышел (LIFO)
             Stack<string> actionHistory = new Stack<string>();
@@ -290,7 +290,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 7. ИГРОВОЙ ПРИМЕР: СИСТЕМА ВРАГОВ
             // ========================================
 
-            Console.WriteLine("\n=== Игровой пример: Список врагов ===");
+            Console.WriteLine("\n=== Игровой пример: List врагов ===");
 
             List<string> enemies = new List<string>
             {
@@ -400,7 +400,7 @@ namespace MyLearn.Module01_CSharpBasics
  * 
  * 3. Топ игроков:
  *    - Создайте Dictionary с именами игроков и очками
- *    - Отсортируйте по очкам (используйте LINQ или циклы)
+ *    - Отсортируйте по очкам (используйте LINQ или loops)
  *    - Выведите топ-5 игроков
  * 
  * 4. Система крафта:
@@ -415,7 +415,7 @@ namespace MyLearn.Module01_CSharpBasics
  *    - Реализуйте просмотр истории
  *    - Реализуйте отмену последнего действия
  * 
- * 6. Очередь действий:
+ * 6. Queue действий:
  *    - Создайте Queue для очереди действий персонажей
  *    - Добавьте действия нескольких персонажей
  *    - Выполняйте действия по очереди

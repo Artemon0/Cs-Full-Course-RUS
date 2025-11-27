@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace MyLearn.Module03_GameConcepts
 {
     /// <summary>
-    /// Урок 12: Компонентная система
+    /// Lesson 12: Компонентная система
     /// 
     /// Unity использует компонентную архитектуру:
     /// - GameObject - контейнер для компонентов
@@ -16,7 +16,7 @@ namespace MyLearn.Module03_GameConcepts
         public static void Run()
         {
             Console.Clear();
-            Console.WriteLine("=== Урок 12: Компонентная система ===\n");
+            Console.WriteLine("=== Lesson 12: Компонентная система ===\n");
 
             Console.WriteLine("В Unity все построено на компонентах:");
             Console.WriteLine("GameObject = Transform + Renderer + Collider + Scripts\n");
@@ -90,7 +90,7 @@ namespace MyLearn.Module03_GameConcepts
                 Console.WriteLine();
             }
 
-            Console.WriteLine("✅ Упражнения:");
+            Console.WriteLine("✅ Exercises:");
             Console.WriteLine("1. Создайте AttackComponent с уроном и кулдауном");
             Console.WriteLine("2. Создайте InventoryComponent для хранения предметов");
             Console.WriteLine("3. Сделайте так, чтобы AI использовал AttackComponent");
@@ -101,7 +101,7 @@ namespace MyLearn.Module03_GameConcepts
     // КОМПОНЕНТНАЯ СИСТЕМА
     // ========================================
 
-    // Базовый класс компонента
+    // Base class компонента
     public abstract class Component
     {
         public GameObject? GameObject { get; set; }

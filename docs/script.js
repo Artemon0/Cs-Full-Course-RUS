@@ -1,62 +1,62 @@
 // Lessons data
 const lessons = {
-    1: {
-        title: "Переменные и типы данных",
-        content: `
-<h3>📝 Переменные и типы данных в C#</h3>
+	1: {
+		title: 'Variables and Data Types',
+		content: `
+<h3>📝 Variables and Data Types in C#</h3>
 
 <div class="section">
-<strong>Основные типы данных:</strong>
-<div class="code">// Целые числа
+<strong>Basic Data Types:</strong>
+<div class="code">// Integers
 int health = 100;
 long experience = 1000000L;
 
-// Дробные числа
+// Floating point numbers
 float speed = 5.5f;
 double damage = 15.75;
 
-// Логический тип
+// Boolean type
 bool isAlive = true;
 
-// Символы и строки
+// Characters and strings
 char grade = 'A';
 string playerName = "Hero";</div>
 
 <div class="result">
-<strong>Результат:</strong>
-Здоровье: 100
-Опыт: 1000000
-Скорость: 5.5
-Урон: 15.75
-Жив: True
-Оценка: A
-Имя игрока: Hero
+<strong>Result:</strong>
+Health: 100
+Experience: 1000000
+Speed: 5.5
+Damage: 15.75
+Alive: True
+Grade: A
+Player Name: Hero
 </div>
 </div>
 
 <div class="section">
-<strong>Неявная типизация (var):</strong>
+<strong>Implicit Typing (var):</strong>
 <div class="code">var level = 10;        // int
 var name = "Player";   // string
 var isActive = true;   // bool</div>
-<p>Компилятор автоматически определяет тип переменной.</p>
+<p>The compiler automatically determines the variable type.</p>
 </div>
 
 <div class="section">
-<strong>Константы:</strong>
+<strong>Constants:</strong>
 <div class="code">const int MAX_HEALTH = 100;
 const float GRAVITY = 9.81f;</div>
-<p>Значения констант нельзя изменить после объявления.</p>
+<p>Constant values cannot be changed after declaration.</p>
 </div>
-`
-    },
-    2: {
-        title: "Операторы",
-        content: `
-<h3>🔢 Операторы в C#</h3>
+`,
+	},
+	2: {
+		title: 'Operators',
+		content: `
+<h3>🔢 Operators in C#</h3>
 
 <div class="section">
-<strong>Арифметические операторы:</strong>
+<strong>Arithmetic Operators:</strong>
 <div class="code">int a = 10, b = 3;
 int sum = a + b;        // 13
 int diff = a - b;       // 7
@@ -66,7 +66,7 @@ int remainder = a % b;  // 1</div>
 </div>
 
 <div class="section">
-<strong>Операторы сравнения:</strong>
+<strong>Comparison Operators:</strong>
 <div class="code">int health = 50;
 bool isLow = health < 30;      // false
 bool isFull = health == 100;   // false
@@ -75,222 +75,222 @@ bool isHigh = health >= 50;    // true</div>
 </div>
 
 <div class="section">
-<strong>Логические операторы:</strong>
+<strong>Logical Operators:</strong>
 <div class="code">bool hasKey = true;
 bool doorOpen = false;
 
-bool canEnter = hasKey && doorOpen;  // false (И)
-bool canTry = hasKey || doorOpen;    // true (ИЛИ)
-bool locked = !doorOpen;             // true (НЕ)</div>
+bool canEnter = hasKey && doorOpen;  // false (AND)
+bool canTry = hasKey || doorOpen;    // true (OR)
+bool locked = !doorOpen;             // true (NOT)</div>
 </div>
 
 <div class="section">
-<strong>Инкремент и декремент:</strong>
+<strong>Increment and Decrement:</strong>
 <div class="code">int score = 10;
-score++;  // 11 (постфиксный)
-++score;  // 12 (префиксный)
+score++;  // 11 (postfix)
+++score;  // 12 (prefix)
 score--;  // 11</div>
 </div>
-`
-    },
-    3: {
-        title: "Условные конструкции",
-        content: `
-<h3>🔀 Условные конструкции</h3>
+`,
+	},
+	3: {
+		title: 'Conditional Statements',
+		content: `
+<h3>🔀 Conditional Statements</h3>
 
 <div class="section">
-<strong>Оператор if-else:</strong>
+<strong>If-Else Statement:</strong>
 <div class="code">int health = 75;
 
 if (health > 80) {
-    Console.WriteLine("Здоровье отличное!");
+    Console.WriteLine("Excellent health!");
 } else if (health > 50) {
-    Console.WriteLine("Здоровье хорошее");
+    Console.WriteLine("Good health");
 } else if (health > 20) {
-    Console.WriteLine("Здоровье низкое!");
+    Console.WriteLine("Low health!");
 } else {
-    Console.WriteLine("Критическое состояние!");
+    Console.WriteLine("Critical condition!");
 }</div>
-<div class="result">Результат: Здоровье хорошее</div>
+<div class="result">Result: Good health</div>
 </div>
 
 <div class="section">
-<strong>Тернарный оператор:</strong>
+<strong>Ternary Operator:</strong>
 <div class="code">int level = 15;
-string rank = level >= 10 ? "Эксперт" : "Новичок";</div>
-<div class="result">Результат: Эксперт</div>
+string rank = level >= 10 ? "Expert" : "Beginner";</div>
+<div class="result">Result: Expert</div>
 </div>
 
 <div class="section">
-<strong>Оператор switch:</strong>
+<strong>Switch Statement:</strong>
 <div class="code">string weapon = "sword";
 
 switch (weapon) {
     case "sword":
-        Console.WriteLine("Урон: 10");
+        Console.WriteLine("Damage: 10");
         break;
     case "bow":
-        Console.WriteLine("Урон: 7");
+        Console.WriteLine("Damage: 7");
         break;
     case "staff":
-        Console.WriteLine("Урон: 12");
+        Console.WriteLine("Damage: 12");
         break;
     default:
-        Console.WriteLine("Неизвестное оружие");
+        Console.WriteLine("Unknown weapon");
         break;
 }</div>
-<div class="result">Результат: Урон: 10</div>
+<div class="result">Result: Damage: 10</div>
 </div>
-`
-    },
-    4: {
-        title: "Циклы",
-        content: `
-<h3>🔄 Циклы в C#</h3>
+`,
+	},
+	4: {
+		title: 'Loops',
+		content: `
+<h3>🔄 Loops in C#</h3>
 
 <div class="section">
-<strong>Цикл for:</strong>
+<strong>For Loop:</strong>
 <div class="code">for (int i = 1; i <= 5; i++) {
-    Console.WriteLine($"Уровень {i}");
+    Console.WriteLine($"Level {i}");
 }</div>
 <div class="result">
-Уровень 1
-Уровень 2
-Уровень 3
-Уровень 4
-Уровень 5
+Level 1
+Level 2
+Level 3
+Level 4
+Level 5
 </div>
 </div>
 
 <div class="section">
-<strong>Цикл while:</strong>
+<strong>While Loop:</strong>
 <div class="code">int health = 100;
 int damage = 15;
 
 while (health > 0) {
     health -= damage;
-    Console.WriteLine($"Здоровье: {health}");
+    Console.WriteLine($"Health: {health}");
 }</div>
 <div class="result">
-Здоровье: 85
-Здоровье: 70
-Здоровье: 55
-Здоровье: 40
-Здоровье: 25
-Здоровье: 10
-Здоровье: -5
+Health: 85
+Health: 70
+Health: 55
+Health: 40
+Health: 25
+Health: 10
+Health: -5
 </div>
 </div>
 
 <div class="section">
-<strong>Цикл foreach:</strong>
-<div class="code">string[] items = { "Меч", "Щит", "Зелье" };
+<strong>Foreach Loop:</strong>
+<div class="code">string[] items = { "Sword", "Shield", "Potion" };
 
 foreach (string item in items) {
-    Console.WriteLine($"Предмет: {item}");
+    Console.WriteLine($"Item: {item}");
 }</div>
 <div class="result">
-Предмет: Меч
-Предмет: Щит
-Предмет: Зелье
+Item: Sword
+Item: Shield
+Item: Potion
 </div>
 </div>
 
 <div class="section">
-<strong>Операторы break и continue:</strong>
+<strong>Break and Continue Operators:</strong>
 <div class="code">for (int i = 1; i <= 10; i++) {
-    if (i == 5) continue;  // Пропустить 5
-    if (i == 8) break;     // Остановиться на 8
+    if (i == 5) continue;  // Skip 5
+    if (i == 8) break;     // Stop at 8
     Console.WriteLine(i);
 }</div>
 <div class="result">1, 2, 3, 4, 6, 7</div>
 </div>
-`
-    },
-    5: {
-        title: "Массивы и коллекции",
-        content: `
-<h3>📦 Массивы и коллекции</h3>
+`,
+	},
+	5: {
+		title: 'Arrays and Collections',
+		content: `
+<h3>📦 Arrays and Collections</h3>
 
 <div class="section">
-<strong>Массивы:</strong>
-<div class="code">// Объявление и инициализация
+<strong>Arrays:</strong>
+<div class="code">// Declaration and initialization
 int[] scores = new int[5];
 scores[0] = 100;
 
-// Инициализация с значениями
-string[] weapons = { "Меч", "Лук", "Посох" };
+// Initialization with values
+string[] weapons = { "Sword", "Bow", "Staff" };
 
-// Длина массива
+// Array length
 int length = weapons.Length;  // 3</div>
 </div>
 
 <div class="section">
-<strong>List (динамический список):</strong>
+<strong>List (dynamic list):</strong>
 <div class="code">List&lt;string&gt; inventory = new List&lt;string&gt;();
 
-// Добавление элементов
-inventory.Add("Зелье здоровья");
-inventory.Add("Ключ");
-inventory.Add("Карта");
+// Adding elements
+inventory.Add("Health Potion");
+inventory.Add("Key");
+inventory.Add("Map");
 
-// Удаление
-inventory.Remove("Ключ");
+// Removing
+inventory.Remove("Key");
 
-// Количество элементов
+// Count of elements
 int count = inventory.Count;  // 2</div>
 </div>
 
 <div class="section">
-<strong>Dictionary (словарь):</strong>
+<strong>Dictionary (dictionary):</strong>
 <div class="code">Dictionary&lt;string, int&gt; stats = new Dictionary&lt;string, int&gt;();
 
-stats["Сила"] = 10;
-stats["Ловкость"] = 15;
-stats["Интеллект"] = 8;
+stats["Strength"] = 10;
+stats["Dexterity"] = 15;
+stats["Intelligence"] = 8;
 
-// Получение значения
-int strength = stats["Сила"];  // 10
+// Getting value
+int strength = stats["Strength"];  // 10
 
-// Проверка наличия ключа
-bool hasKey = stats.ContainsKey("Сила");  // true</div>
+// Checking for key existence
+bool hasKey = stats.ContainsKey("Strength");  // true</div>
 </div>
-`
-    },
-    6: {
-        title: "Методы",
-        content: `
-<h3>⚙️ Методы в C#</h3>
+`,
+	},
+	6: {
+		title: 'Methods',
+		content: `
+<h3>⚙️ Methods in C#</h3>
 
 <div class="section">
-<strong>Объявление метода:</strong>
-<div class="code">// Метод без возвращаемого значения
+<strong>Method Declaration:</strong>
+<div class="code">// Method with no return value
 void Greet(string name) {
-    Console.WriteLine($"Привет, {name}!");
+    Console.WriteLine($"Hello, {name}!");
 }
 
-// Метод с возвращаемым значением
+// Method with return value
 int Add(int a, int b) {
     return a + b;
 }
 
-// Вызов методов
-Greet("Игрок");
+// Calling methods
+Greet("Player");
 int result = Add(5, 3);  // 8</div>
 </div>
 
 <div class="section">
-<strong>Параметры по умолчанию:</strong>
+<strong>Default Parameters:</strong>
 <div class="code">void Attack(string target, int damage = 10) {
-    Console.WriteLine($"{target} получил {damage} урона");
+    Console.WriteLine($"{target} took {damage} damage");
 }
 
-Attack("Враг");        // Урон 10
-Attack("Босс", 25);    // Урон 25</div>
+Attack("Enemy");        // Damage 10
+Attack("Boss", 25);    // Damage 25</div>
 </div>
 
 <div class="section">
-<strong>Перегрузка методов:</strong>
+<strong>Method Overloading:</strong>
 <div class="code">int Calculate(int a, int b) {
     return a + b;
 }
@@ -305,7 +305,7 @@ string Calculate(string a, string b) {
 </div>
 
 <div class="section">
-<strong>Ref и out параметры:</strong>
+<strong>Ref and out Parameters:</strong>
 <div class="code">void ModifyValue(ref int value) {
     value = value * 2;
 }
@@ -315,52 +315,52 @@ void GetValues(out int x, out int y) {
     y = 20;
 }</div>
 </div>
-`
-    },
-    7: {
-        title: "Классы и объекты",
-        content: `
-<h3>🏗️ Классы и объекты</h3>
+`,
+	},
+	7: {
+		title: 'Classes and Objects',
+		content: `
+<h3>🏗️ Classes and Objects</h3>
 
 <div class="section">
-<strong>Создание класса:</strong>
+<strong>Creating a Class:</strong>
 <div class="code">class Player {
-    // Поля
+    // Fields
     public string Name;
     public int Health;
     public int Level;
     
-    // Конструктор
+    // Constructor
     public Player(string name, int health) {
         Name = name;
         Health = health;
         Level = 1;
     }
     
-    // Методы
+    // Methods
     public void TakeDamage(int damage) {
         Health -= damage;
-        Console.WriteLine($"{Name} получил {damage} урона");
+        Console.WriteLine($"{Name} took {damage} damage");
     }
     
     public void Heal(int amount) {
         Health += amount;
-        Console.WriteLine($"{Name} восстановил {amount} здоровья");
+        Console.WriteLine($"{Name} recovered {amount} health");
     }
 }</div>
 </div>
 
 <div class="section">
-<strong>Создание объектов:</strong>
-<div class="code">Player hero = new Player("Герой", 100);
+<strong>Creating Objects:</strong>
+<div class="code">Player hero = new Player("Hero", 100);
 hero.TakeDamage(20);
 hero.Heal(10);
 
-Console.WriteLine($"Здоровье: {hero.Health}");  // 90</div>
+Console.WriteLine($"Health: {hero.Health}");  // 90</div>
 </div>
 
 <div class="section">
-<strong>Свойства (Properties):</strong>
+<strong>Properties:</strong>
 <div class="code">class Character {
     private int health;
     
@@ -374,32 +374,32 @@ Console.WriteLine($"Здоровье: {hero.Health}");  // 90</div>
     }
 }</div>
 </div>
-`
-    },
-    8: {
-        title: "Наследование и полиморфизм",
-        content: `
-<h3>🔗 Наследование и полиморфизм</h3>
+`,
+	},
+	8: {
+		title: 'Inheritance and Polymorphism',
+		content: `
+<h3>🔗 Inheritance and Polymorphism</h3>
 
 <div class="section">
-<strong>Базовый класс:</strong>
+<strong>Base Class:</strong>
 <div class="code">class Character {
     public string Name;
     public int Health;
     
     public virtual void Attack() {
-        Console.WriteLine($"{Name} атакует!");
+        Console.WriteLine($"{Name} attacks!");
     }
 }</div>
 </div>
 
 <div class="section">
-<strong>Наследование:</strong>
+<strong>Inheritance:</strong>
 <div class="code">class Warrior : Character {
     public int Strength;
     
     public override void Attack() {
-        Console.WriteLine($"{Name} наносит мощный удар мечом!");
+        Console.WriteLine($"{Name} delivers a powerful sword strike!");
     }
 }
 
@@ -407,38 +407,38 @@ class Mage : Character {
     public int Mana;
     
     public override void Attack() {
-        Console.WriteLine($"{Name} использует огненный шар!");
+        Console.WriteLine($"{Name} casts a fireball!");
     }
 }</div>
 </div>
 
 <div class="section">
-<strong>Полиморфизм:</strong>
-<div class="code">Character warrior = new Warrior { Name = "Воин" };
-Character mage = new Mage { Name = "Маг" };
+<strong>Polymorphism:</strong>
+<div class="code">Character warrior = new Warrior { Name = "Warrior" };
+Character mage = new Mage { Name = "Mage" };
 
-warrior.Attack();  // Воин наносит мощный удар мечом!
-mage.Attack();     // Маг использует огненный шар!</div>
+warrior.Attack();  // Warrior delivers a powerful sword strike!
+mage.Attack();     // Mage casts a fireball!</div>
 </div>
 
 <div class="section">
-<strong>Ключевое слово base:</strong>
+<strong>Base Keyword:</strong>
 <div class="code">class Boss : Character {
     public override void Attack() {
-        base.Attack();  // Вызов метода базового класса
-        Console.WriteLine("Босс использует специальную атаку!");
+        base.Attack();  // Calling base class method
+        Console.WriteLine("Boss uses special attack!");
     }
 }</div>
 </div>
-`
-    },
-    9: {
-        title: "Интерфейсы и абстрактные классы",
-        content: `
-<h3>🎭 Интерфейсы и абстрактные классы</h3>
+`,
+	},
+	9: {
+		title: 'Interfaces and Abstract Classes',
+		content: `
+<h3>🎭 Interfaces and Abstract Classes</h3>
 
 <div class="section">
-<strong>Интерфейсы:</strong>
+<strong>Interfaces:</strong>
 <div class="code">interface IDamageable {
     void TakeDamage(int damage);
     int Health { get; set; }
@@ -458,47 +458,47 @@ class Enemy : IDamageable, IMovable {
     }
     
     public void Move(float x, float y) {
-        // Логика движения
+        // Movement logic
     }
 }</div>
 </div>
 
 <div class="section">
-<strong>Абстрактные классы:</strong>
+<strong>Abstract Classes:</strong>
 <div class="code">abstract class Weapon {
     public string Name;
     public int Damage;
     
-    // Абстрактный метод
+    // Abstract method
     public abstract void Use();
     
-    // Обычный метод
+    // Regular method
     public void Display() {
-        Console.WriteLine($"{Name}: {Damage} урона");
+        Console.WriteLine($"{Name}: {Damage} damage");
     }
 }
 
 class Sword : Weapon {
     public override void Use() {
-        Console.WriteLine("Удар мечом!");
+        Console.WriteLine("Sword strike!");
     }
 }
 
 class Bow : Weapon {
     public override void Use() {
-        Console.WriteLine("Выстрел из лука!");
+        Console.WriteLine("Bow shot!");
     }
 }</div>
 </div>
-`
-    },
-    10: {
-        title: "Паттерны проектирования",
-        content: `
-<h3>🎨 Паттерны проектирования</h3>
+`,
+	},
+	10: {
+		title: 'Design Patterns',
+		content: `
+<h3>🎨 Design Patterns</h3>
 
 <div class="section">
-<strong>Singleton (Одиночка):</strong>
+<strong>Singleton (Singleton):</strong>
 <div class="code">class GameManager {
     private static GameManager instance;
     
@@ -514,29 +514,29 @@ class Bow : Weapon {
     private GameManager() { }
     
     public void StartGame() {
-        Console.WriteLine("Игра началась!");
+        Console.WriteLine("Game started!");
     }
 }
 
-// Использование
+// Usage
 GameManager.Instance.StartGame();</div>
 </div>
 
 <div class="section">
-<strong>Factory (Фабрика):</strong>
+<strong>Factory (Factory):</strong>
 <div class="code">abstract class Enemy {
     public abstract void Attack();
 }
 
 class Goblin : Enemy {
     public override void Attack() {
-        Console.WriteLine("Гоблин атакует!");
+        Console.WriteLine("Goblin attacks!");
     }
 }
 
 class Orc : Enemy {
     public override void Attack() {
-        Console.WriteLine("Орк атакует!");
+        Console.WriteLine("Orc attacks!");
     }
 }
 
@@ -552,7 +552,7 @@ class EnemyFactory {
 </div>
 
 <div class="section">
-<strong>Observer (Наблюдатель):</strong>
+<strong>Observer (Observer):</strong>
 <div class="code">class HealthSystem {
     private int health;
     public event Action&lt;int&gt; OnHealthChanged;
@@ -566,24 +566,24 @@ class EnemyFactory {
     }
 }
 
-// Использование
+// Usage
 HealthSystem healthSystem = new HealthSystem();
 healthSystem.OnHealthChanged += (newHealth) => {
-    Console.WriteLine($"Здоровье изменилось: {newHealth}");
+    Console.WriteLine($"Health changed: {newHealth}");
 };
 
-healthSystem.Health = 50;  // Вызовет событие</div>
+healthSystem.Health = 50;  // Will trigger event</div>
 </div>
-`
-    },
-    11: {
-        title: "Игровой цикл (Game Loop)",
-        content: `
-<h3>🎮 Игровой цикл (Game Loop)</h3>
+`,
+	},
+	11: {
+		title: 'Game Loop',
+		content: `
+<h3>🎮 Game Loop</h3>
 
 <div class="section">
-<strong>Основная концепция:</strong>
-<p>Игровой цикл - это бесконечный цикл, который обновляет состояние игры и отрисовывает кадры.</p>
+<strong>Main Concept:</strong>
+<p>A game loop is an infinite loop that updates the game state and renders frames.</p>
 <div class="code">class GameLoop {
     private bool isRunning = true;
     private float deltaTime = 0.016f;  // ~60 FPS
@@ -600,57 +600,57 @@ healthSystem.Health = 50;  // Вызовет событие</div>
     }
     
     void Initialize() {
-        Console.WriteLine("Инициализация игры...");
+        Console.WriteLine("Game initialization...");
     }
     
     void Update(float dt) {
-        // Обновление логики игры
-        // Физика, AI, ввод пользователя
+        // Update game logic
+        // Physics, AI, user input
     }
     
     void Render() {
-        // Отрисовка кадра
+        // Render frame
     }
     
     void Cleanup() {
-        Console.WriteLine("Завершение игры...");
+        Console.WriteLine("Game shutdown...");
     }
 }</div>
 </div>
 
 <div class="section">
-<strong>Пример с Unity:</strong>
-<div class="code">// В Unity используются встроенные методы
+<strong>Example with Unity:</strong>
+<div class="code">// Unity uses built-in methods
 void Start() {
-    // Вызывается один раз при запуске
+    // Called once at startup
 }
 
 void Update() {
-    // Вызывается каждый кадр
+    // Called every frame
     float dt = Time.deltaTime;
 }
 
 void FixedUpdate() {
-    // Вызывается с фиксированным интервалом
-    // Используется для физики
+    // Called at fixed intervals
+    // Used for physics
 }
 
 void LateUpdate() {
-    // Вызывается после всех Update
-    // Используется для камеры
+    // Called after all Updates
+    // Used for camera
 }</div>
 </div>
-`
-    },
-    12: {
-        title: "Компонентная система",
-        content: `
-<h3>🧩 Компонентная система</h3>
+`,
+	},
+	12: {
+		title: 'Component System',
+		content: `
+<h3>🧩 Component System</h3>
 
 <div class="section">
-<strong>Концепция компонентов:</strong>
-<p>Компонентная архитектура позволяет создавать гибкие и переиспользуемые игровые объекты.</p>
-<div class="code">// Базовый компонент
+<strong>Component Concept:</strong>
+<p>Component architecture allows creating flexible and reusable game objects.</p>
+<div class="code">// Base component
 abstract class Component {
     public GameObject Owner;
     
@@ -658,7 +658,7 @@ abstract class Component {
     public virtual void Render() { }
 }
 
-// Игровой объект
+// Game object
 class GameObject {
     public string Name;
     private List&lt;Component&gt; components = new List&lt;Component&gt;();
@@ -684,7 +684,7 @@ class GameObject {
 </div>
 
 <div class="section">
-<strong>Примеры компонентов:</strong>
+<strong>Component Examples:</strong>
 <div class="code">class TransformComponent : Component {
     public float X, Y;
     public float Rotation;
@@ -697,7 +697,7 @@ class HealthComponent : Component {
     public void TakeDamage(int damage) {
         CurrentHealth -= damage;
         if (CurrentHealth <= 0) {
-            Console.WriteLine($"{Owner.Name} уничтожен!");
+            Console.WriteLine($"{Owner.Name} destroyed!");
         }
     }
 }
@@ -707,32 +707,32 @@ class MovementComponent : Component {
     
     public override void Update(float deltaTime) {
         var transform = Owner.GetComponent&lt;TransformComponent&gt;();
-        // Логика движения
+        // Movement logic
     }
 }</div>
 </div>
 
 <div class="section">
-<strong>Использование:</strong>
+<strong>Usage:</strong>
 <div class="code">GameObject player = new GameObject { Name = "Player" };
 player.AddComponent(new TransformComponent());
 player.AddComponent(new HealthComponent());
 player.AddComponent(new MovementComponent());
 
-// Получение компонента
+// Getting component
 var health = player.GetComponent&lt;HealthComponent&gt;();
 health.TakeDamage(20);</div>
 </div>
-`
-    },
-    13: {
-        title: "Система событий",
-        content: `
-<h3>📡 Система событий</h3>
+`,
+	},
+	13: {
+		title: 'Event System',
+		content: `
+<h3>📡 Event System</h3>
 
 <div class="section">
-<strong>События в C#:</strong>
-<div class="code">// Определение события
+<strong>Events in C#:</strong>
+<div class="code">// Event definition
 class Player {
     public event Action OnDeath;
     public event Action&lt;int&gt; OnHealthChanged;
@@ -756,29 +756,29 @@ class Player {
 </div>
 
 <div class="section">
-<strong>Подписка на события:</strong>
+<strong>Subscribing to Events:</strong>
 <div class="code">Player player = new Player();
 
-// Подписка на события
+// Subscribe to events
 player.OnHealthChanged += (newHealth) => {
-    Console.WriteLine($"Здоровье: {newHealth}");
+    Console.WriteLine($"Health: {newHealth}");
 };
 
 player.OnDeath += () => {
-    Console.WriteLine("Игрок погиб!");
+    Console.WriteLine("Player died!");
 };
 
 player.OnLevelUp += (oldLvl, newLvl) => {
-    Console.WriteLine($"Уровень повышен: {oldLvl} → {newLvl}");
+    Console.WriteLine($"Level up: {oldLvl} → {newLvl}");
 };
 
-// Вызов событий
+// Trigger events
 player.TakeDamage(30);
 player.LevelUp(1, 2);</div>
 </div>
 
 <div class="section">
-<strong>Система событий для игры:</strong>
+<strong>Game Event System:</strong>
 <div class="code">class EventManager {
     private static Dictionary&lt;string, Action&lt;object&gt;&gt; events 
         = new Dictionary&lt;string, Action&lt;object&gt;&gt;();
@@ -803,53 +803,53 @@ player.LevelUp(1, 2);</div>
     }
 }
 
-// Использование
+// Usage
 EventManager.Subscribe("EnemyKilled", (data) => {
-    Console.WriteLine("Враг убит! +100 опыта");
+    Console.WriteLine("Enemy killed! +100 experience");
 });
 
 EventManager.Trigger("EnemyKilled");</div>
 </div>
-`
-    }
-};
+`,
+	},
+}
 
 // DOM elements
-const menu = document.getElementById('menu');
-const lessonContent = document.getElementById('lesson-content');
-const lessonOutput = document.getElementById('lesson-output');
-const backBtn = document.getElementById('back-btn');
+const menu = document.getElementById('menu')
+const lessonContent = document.getElementById('lesson-content')
+const lessonOutput = document.getElementById('lesson-output')
+const backBtn = document.getElementById('back-btn')
 
 // Event listeners
 document.querySelectorAll('.lesson-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const lessonId = parseInt(btn.dataset.lesson);
-        showLesson(lessonId);
-    });
-});
+	btn.addEventListener('click', () => {
+		const lessonId = parseInt(btn.dataset.lesson)
+		showLesson(lessonId)
+	})
+})
 
-backBtn.addEventListener('click', showMenu);
+backBtn.addEventListener('click', showMenu)
 
 // Functions
 function showLesson(id) {
-    const lesson = lessons[id];
-    if (!lesson) return;
-    
-    lessonOutput.innerHTML = lesson.content;
-    menu.classList.add('hidden');
-    lessonContent.classList.remove('hidden');
-    
-    // Scroll to top
-    window.scrollTo(0, 0);
+	const lesson = lessons[id]
+	if (!lesson) return
+
+	lessonOutput.innerHTML = lesson.content
+	menu.classList.add('hidden')
+	lessonContent.classList.remove('hidden')
+
+	// Scroll to top
+	window.scrollTo(0, 0)
 }
 
 function showMenu() {
-    menu.classList.remove('hidden');
-    lessonContent.classList.add('hidden');
-    
-    // Scroll to top
-    window.scrollTo(0, 0);
+	menu.classList.remove('hidden')
+	lessonContent.classList.add('hidden')
+
+	// Scroll to top
+	window.scrollTo(0, 0)
 }
 
 // Initialize
-console.log('🎮 Обучение C# для Unity загружено!');
+console.log('🎮 C# Learning for Unity loaded!')

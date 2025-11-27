@@ -3,7 +3,7 @@ using System;
 namespace MyLearn.Module03_GameConcepts
 {
     /// <summary>
-    /// Урок 13: Система событий
+    /// Lesson 13: Система событий
     /// 
     /// События - основа коммуникации в играх:
     /// - Слабая связанность систем
@@ -15,7 +15,7 @@ namespace MyLearn.Module03_GameConcepts
         public static void Run()
         {
             Console.Clear();
-            Console.WriteLine("=== Урок 13: Система событий ===\n");
+            Console.WriteLine("=== Lesson 13: Система событий ===\n");
 
             Console.WriteLine("События позволяют системам общаться без прямых ссылок:");
             Console.WriteLine("Игрок убил врага → UI обновляет счет → Звук победы → Достижение\n");
@@ -84,7 +84,7 @@ namespace MyLearn.Module03_GameConcepts
             Console.WriteLine($"\n📊 Финальный счет: {scoreManager.TotalScore}");
             Console.WriteLine($"🏆 Разблокировано достижений: {achievementManager.UnlockedCount}");
 
-            Console.WriteLine("\n✅ Упражнения:");
+            Console.WriteLine("\n✅ Exercises:");
             Console.WriteLine("1. Добавьте событие OnQuestCompleted");
             Console.WriteLine("2. Создайте UIManager который слушает все события");
             Console.WriteLine("3. Добавьте систему комбо (убийства подряд)");
@@ -165,7 +165,7 @@ namespace MyLearn.Module03_GameConcepts
         public static event ItemCollectedHandler? OnItemCollected;
         public static event PlayerLevelUpHandler? OnPlayerLevelUp;
 
-        // Методы для вызова событий
+        // Methods для вызова событий
         public static void EnemyKilled(string enemyName, int reward)
         {
             Console.WriteLine($"💥 {enemyName} убит!");

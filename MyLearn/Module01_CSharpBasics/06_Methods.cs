@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace MyLearn.Module01_CSharpBasics
 {
     /// <summary>
-    /// Урок 6: Методы
+    /// Lesson 6: Methods
     /// 
     /// В этом уроке вы изучите:
     /// - Что такое методы и зачем они нужны
@@ -52,7 +52,7 @@ namespace MyLearn.Module01_CSharpBasics
             Console.WriteLine($"\n--- Статистика игрока ---");
             Console.WriteLine($"Имя: {name}");
             Console.WriteLine($"Здоровье: {health}");
-            Console.WriteLine($"Уровень: {level}");
+            Console.WriteLine($"Level: {level}");
         }
 
         // Метод для атаки
@@ -150,7 +150,7 @@ namespace MyLearn.Module01_CSharpBasics
         static void SpawnEnemy(string type = "Гоблин", int health = 50, int level = 1)
         {
             Console.WriteLine($"👹 Появился {type}!");
-            Console.WriteLine($"   HP: {health}, Уровень: {level}");
+            Console.WriteLine($"   HP: {health}, Level: {level}");
         }
 
         static int CalculateFinalDamage(int baseDamage, float multiplier = 1.0f, int bonus = 0)
@@ -178,7 +178,7 @@ namespace MyLearn.Module01_CSharpBasics
             {
                 currentExp -= expNeeded;
                 level++;
-                Console.WriteLine($"🎉 Уровень повышен! Новый уровень: {level}");
+                Console.WriteLine($"🎉 Level повышен! Новый уровень: {level}");
                 expNeeded = level * 100;
             }
         }
@@ -261,7 +261,7 @@ namespace MyLearn.Module01_CSharpBasics
 
         public static void RunDemo()
         {
-            Console.WriteLine("=== Урок 6: Методы ===\n");
+            Console.WriteLine("=== Lesson 6: Methods ===\n");
 
             // 1. Простые методы
             Console.WriteLine("--- Простые методы ---");
@@ -269,13 +269,13 @@ namespace MyLearn.Module01_CSharpBasics
             PrintPlayerName("Артур");
             PrintPlayerStats("Артур", 100, 5);
 
-            // 2. Методы с параметрами
-            Console.WriteLine("\n--- Методы с параметрами ---");
+            // 2. Methods с параметрами
+            Console.WriteLine("\n--- Methods с параметрами ---");
             Attack("Рыцарь", "Дракон", 45);
             Attack("Маг", "Гоблин", 30);
 
-            // 3. Методы с возвращаемым значением
-            Console.WriteLine("\n--- Методы с возвращаемым значением ---");
+            // 3. Methods с возвращаемым значением
+            Console.WriteLine("\n--- Methods с возвращаемым значением ---");
             int damage = CalculateDamage(20, 15);
             Console.WriteLine($"Рассчитанный урон: {damage}");
 
@@ -293,7 +293,7 @@ namespace MyLearn.Module01_CSharpBasics
             // 4. Несколько возвращаемых значений
             Console.WriteLine("\n--- Несколько возвращаемых значений ---");
             GetPlayerInfo(out string name, out int level, out int health);
-            Console.WriteLine($"Имя: {name}, Уровень: {level}, HP: {health}");
+            Console.WriteLine($"Имя: {name}, Level: {level}, HP: {health}");
 
             var resources = GetResourceValues();
             Console.WriteLine($"HP: {resources.health}, Мана: {resources.mana}, Выносливость: {resources.stamina}");
@@ -324,9 +324,9 @@ namespace MyLearn.Module01_CSharpBasics
 
             int exp = 80;
             int playerLevel = 1;
-            Console.WriteLine($"Уровень: {playerLevel}, Опыт: {exp}");
+            Console.WriteLine($"Level: {playerLevel}, Опыт: {exp}");
             AddExperience(ref exp, ref playerLevel, 150);
-            Console.WriteLine($"Уровень: {playerLevel}, Опыт: {exp}");
+            Console.WriteLine($"Level: {playerLevel}, Опыт: {exp}");
 
             // 8. Игровые примеры
             Console.WriteLine("\n--- Игровые примеры ---");
@@ -352,7 +352,7 @@ namespace MyLearn.Module01_CSharpBasics
             List<string> inventory = new List<string> { "Меч", "Щит", "Зелье", "Ключ" };
             DisplayInventory(inventory);
 
-            Console.WriteLine("\nСтатус здоровья:");
+            Console.WriteLine("\nStatus здоровья:");
             Console.WriteLine($"100/100: {GetHealthStatus(100, 100)}");
             Console.WriteLine($"60/100: {GetHealthStatus(60, 100)}");
             Console.WriteLine($"30/100: {GetHealthStatus(30, 100)}");
@@ -414,7 +414,7 @@ namespace MyLearn.Module01_CSharpBasics
                 Attack(enemyName, playerName, enemyDamage);
                 TakeDamage(ref playerHP, enemyDamage);
                 Console.WriteLine($"{playerName} HP: {playerHP}");
-                Console.WriteLine($"Статус: {GetHealthStatus(playerHP, 100)}");
+                Console.WriteLine($"Status: {GetHealthStatus(playerHP, 100)}");
 
                 if (!IsAlive(playerHP))
                 {
@@ -449,14 +449,14 @@ namespace MyLearn.Module01_CSharpBasics
  * 
  * 3. Система скидок:
  *    - Создайте метод CalculateDiscount(int price, int playerLevel)
- *    - Уровень 1-5: 0% скидка
- *    - Уровень 6-10: 10% скидка
- *    - Уровень 11+: 20% скидка
+ *    - Level 1-5: 0% скидка
+ *    - Level 6-10: 10% скидка
+ *    - Level 11+: 20% скидка
  *    - Верните финальную цену
  * 
  * 4. Генератор имен врагов:
  *    - Создайте метод GenerateEnemyName(string type, int level)
- *    - Примеры: "Гоблин (Ур. 5)", "Орк (Ур. 10)"
+ *    - Examples: "Гоблин (Ур. 5)", "Орк (Ур. 10)"
  *    - Если уровень >= 10, добавьте "Элитный"
  * 
  * 5. Система лута:
@@ -466,7 +466,7 @@ namespace MyLearn.Module01_CSharpBasics
  *    - Используйте Random для случайности
  * 
  * 6. Продвинутая боевая система:
- *    - Создайте метод SimulateFullBattle с параметрами обоих бойцов
+ *    - Создайте метод SimulateFullBattle с параметрами обоих combatцов
  *    - Добавьте возможность использования зелий
  *    - Добавьте систему критических ударов
  *    - Добавьте систему уклонения
