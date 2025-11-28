@@ -9,45 +9,48 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1>🎮 ОБУЧЕНИЕ C# ДЛЯ UNITY 🎮</h1>
+            <div class="lang-switcher">
+                <button id="lang-btn" class="lang-btn">EN</button>
+            </div>
+            <h1 id="main-title">🎮 ОБУЧЕНИЕ C# ДЛЯ UNITY 🎮</h1>
         </header>
 
         <main id="main-content">
             <div id="menu" class="menu">
                 <section class="module">
-                    <h2>📚 МОДУЛЬ 1: ОСНОВЫ C#</h2>
-                    <button class="lesson-btn" data-lesson="1">1. Переменные и типы данных</button>
-                    <button class="lesson-btn" data-lesson="2">2. Операторы</button>
-                    <button class="lesson-btn" data-lesson="3">3. Условные конструкции</button>
-                    <button class="lesson-btn" data-lesson="4">4. Циклы</button>
-                    <button class="lesson-btn" data-lesson="5">5. Массивы и коллекции</button>
-                    <button class="lesson-btn" data-lesson="6">6. Методы</button>
+                    <h2 class="module-title" data-ru="📚 МОДУЛЬ 1: ОСНОВЫ C#" data-en="📚 MODULE 1: C# BASICS">📚 МОДУЛЬ 1: ОСНОВЫ C#</h2>
+                    <button class="lesson-btn" data-lesson="1" data-ru="1. Переменные и типы данных" data-en="1. Variables and Data Types">1. Переменные и типы данных</button>
+                    <button class="lesson-btn" data-lesson="2" data-ru="2. Операторы" data-en="2. Operators">2. Операторы</button>
+                    <button class="lesson-btn" data-lesson="3" data-ru="3. Условные конструкции" data-en="3. Conditional Statements">3. Условные конструкции</button>
+                    <button class="lesson-btn" data-lesson="4" data-ru="4. Циклы" data-en="4. Loops">4. Циклы</button>
+                    <button class="lesson-btn" data-lesson="5" data-ru="5. Массивы и коллекции" data-en="5. Arrays and Collections">5. Массивы и коллекции</button>
+                    <button class="lesson-btn" data-lesson="6" data-ru="6. Методы" data-en="6. Methods">6. Методы</button>
                 </section>
 
                 <section class="module">
-                    <h2>📚 МОДУЛЬ 2: ООП В C#</h2>
-                    <button class="lesson-btn" data-lesson="7">7. Классы и объекты</button>
-                    <button class="lesson-btn" data-lesson="8">8. Наследование и полиморфизм</button>
-                    <button class="lesson-btn" data-lesson="9">9. Интерфейсы и абстрактные классы</button>
-                    <button class="lesson-btn" data-lesson="10">10. Паттерны проектирования</button>
+                    <h2 class="module-title" data-ru="📚 МОДУЛЬ 2: ООП В C#" data-en="📚 MODULE 2: OOP IN C#">📚 МОДУЛЬ 2: ООП В C#</h2>
+                    <button class="lesson-btn" data-lesson="7" data-ru="7. Классы и объекты" data-en="7. Classes and Objects">7. Классы и объекты</button>
+                    <button class="lesson-btn" data-lesson="8" data-ru="8. Наследование и полиморфизм" data-en="8. Inheritance and Polymorphism">8. Наследование и полиморфизм</button>
+                    <button class="lesson-btn" data-lesson="9" data-ru="9. Интерфейсы и абстрактные классы" data-en="9. Interfaces and Abstract Classes">9. Интерфейсы и абстрактные классы</button>
+                    <button class="lesson-btn" data-lesson="10" data-ru="10. Паттерны проектирования" data-en="10. Design Patterns">10. Паттерны проектирования</button>
                 </section>
 
                 <section class="module">
-                    <h2>📚 МОДУЛЬ 3: ИГРОВЫЕ КОНЦЕПЦИИ</h2>
-                    <button class="lesson-btn" data-lesson="11">11. Игровой цикл (Game Loop)</button>
-                    <button class="lesson-btn" data-lesson="12">12. Компонентная система</button>
-                    <button class="lesson-btn" data-lesson="13">13. Система событий</button>
+                    <h2 class="module-title" data-ru="📚 МОДУЛЬ 3: ИГРОВЫЕ КОНЦЕПЦИИ" data-en="📚 MODULE 3: GAME CONCEPTS">📚 МОДУЛЬ 3: ИГРОВЫЕ КОНЦЕПЦИИ</h2>
+                    <button class="lesson-btn" data-lesson="11" data-ru="11. Игровой цикл (Game Loop)" data-en="11. Game Loop">11. Игровой цикл (Game Loop)</button>
+                    <button class="lesson-btn" data-lesson="12" data-ru="12. Компонентная система" data-en="12. Component System">12. Компонентная система</button>
+                    <button class="lesson-btn" data-lesson="13" data-ru="13. Система событий" data-en="13. Event System">13. Система событий</button>
                 </section>
             </div>
 
             <div id="lesson-content" class="lesson-content hidden">
-                <button id="back-btn" class="back-btn">← Назад в меню</button>
+                <button id="back-btn" class="back-btn" data-ru="← Назад в меню" data-en="← Back to Menu">← Назад в меню</button>
                 <div id="lesson-output" class="output"></div>
             </div>
         </main>
 
         <footer class="footer">
-            <p>Интерактивное обучение C# для Unity | GitHub Pages</p>
+            <p id="footer-text" data-ru="Интерактивное обучение C# для Unity | GitHub Pages" data-en="Interactive C# Learning for Unity | GitHub Pages">Интерактивное обучение C# для Unity | GitHub Pages</p>
         </footer>
     </div>
 
