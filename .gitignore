@@ -76,3 +76,6 @@ Thumbs.db
 .vscode/
 .config/
 MyLearn/bin/
+RELEASE.md
+RELEASE_EN.md
+*.zip
